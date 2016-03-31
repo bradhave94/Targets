@@ -1,0 +1,934 @@
+﻿[2016.03.24-19.22.08:059][  0]Log file open, 03/24/16 15:22:08
+[2016.03.24-19.22.08:059][  0]LogInit:Display: Running engine for game: Targets
+[2016.03.24-19.22.08:059][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.24-19.22.08:059][  0]LogInit:Display: RandInit(-452492328) SRandInit(-452492327).
+[2016.03.24-19.22.08:059][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.24-19.22.08:059][  0]LogStats: Stats thread started at 0.082681
+[2016.03.24-19.22.08:059][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.24-19.22.08:059][  0]LogInit: API Version: 2758231
+[2016.03.24-19.22.08:059][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.24-19.22.08:059][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.24-19.22.08:059][  0]LogInit: Build Configuration: Development
+[2016.03.24-19.22.08:059][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.24-19.22.08:059][  0]LogInit: Command line:  
+[2016.03.24-19.22.08:059][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.24-19.22.08:059][  0]LogInit: Rocket: 1
+[2016.03.24-19.22.08:073][  0]LogInit: Using libcurl 7.41.0
+[2016.03.24-19.22.08:073][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.24-19.22.08:073][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.24-19.22.08:073][  0]LogInit:  - other features:
+[2016.03.24-19.22.08:073][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.24-19.22.08:073][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.24-19.22.08:073][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.24-19.22.08:073][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.24-19.22.08:073][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.24-19.22.08:073][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.24-19.22.08:073][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.24-19.22.08:073][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.24-19.22.08:073][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.24-19.22.08:073][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.24-19.22.08:097][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.24-19.22.08:101][  0]LogInit: Object subsystem initialized
+[2016.03.24-19.22.08:102][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-19.22.08:102][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.24-19.22.08:118][  0]LogInit: Computer: BRADDLESTATION
+[2016.03.24-19.22.08:118][  0]LogInit: User: Administrator
+[2016.03.24-19.22.08:118][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.24-19.22.08:118][  0]LogInit: High frequency timer resolution =3.410076 MHz
+[2016.03.24-19.22.08:118][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.03.24-19.22.08:118][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.24-19.22.08:118][  0]LogMemory: Process Physical Memory: 55.89 MB used, 55.89 MB peak
+[2016.03.24-19.22.08:118][  0]LogMemory: Process Virtual Memory: 56.77 MB used, 56.77 MB peak
+[2016.03.24-19.22.08:118][  0]LogMemory: Physical Memory: 2893.57 MB used, 8149.47 MB total
+[2016.03.24-19.22.08:118][  0]LogMemory: Virtual Memory: 382.49 MB used, 134217728.00 MB total
+[2016.03.24-19.22.08:267][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.24-19.22.08:650][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.24-19.22.08:650][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 1 output[s]
+[2016.03.24-19.22.08:651][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.24-19.22.08:651][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 0 output[s]
+[2016.03.24-19.22.08:651][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.24-19.22.08:654][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.24-19.22.08:654][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.24-19.22.08:664][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.24-19.22.08:680][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Intermediate/Shaders/WorkingDirectory/4132/).
+[2016.03.24-19.22.08:680][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADMINI~1.BRA/AppData/Local/Temp/UnrealShaderWorkingDir/1B19ADCA4881532F06246C862BD5CA0D/'.
+[2016.03.24-19.22.08:680][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.24-19.22.09:875][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.24-19.22.09:879][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.24-19.22.09:882][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.24-19.22.09:885][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.24-19.22.09:887][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.24-19.22.09:891][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.24-19.22.09:893][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.24-19.22.09:895][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.24-19.22.09:897][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.24-19.22.09:899][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.24-19.22.09:902][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.24-19.22.09:906][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.24-19.22.09:906][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.24-19.22.09:907][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.24-19.22.09:939][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.24-19.22.09:941][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.24-19.22.09:943][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.24-19.22.09:948][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.24-19.22.09:948][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.24-19.22.10:140][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.24-19.22.10:178][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.24-19.22.10:178][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.24-19.22.10:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.24-19.22.10:178][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.24-19.22.10:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.24-19.22.10:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.24-19.22.10:228][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.24-19.22.10:241][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.24-19.22.12:230][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-19.22.12:232][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.24-19.22.12:340][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.24-19.22.12:340][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.24-19.22.12:657][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.24-19.22.13:674][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.24-19.22.13:804][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.03.24-19.22.13:979][  0]SourceControl: Info Source control is disabled
+[2016.03.24-19.22.14:055][  0]SourceControl: Info Source control is disabled
+[2016.03.24-19.22.14:062][  0]SourceControl: Info Source control is disabled
+[2016.03.24-19.22.14:067][  0]SourceControl: Info Source control is disabled
+[2016.03.24-19.22.14:241][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.24-19.22.14:241][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.03.24-19.22.14:296][  0]LogEngine: Initializing Engine...
+[2016.03.24-19.22.14:298][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.24-19.22.14:306][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.24-19.22.14:453][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.24-19.22.14:459][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.24-19.22.14:478][  0]LogInit: FAudioDevice initialized.
+[2016.03.24-19.22.14:498][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.24-19.22.14:502][  0]LogInit: Texture streaming: Enabled
+[2016.03.24-19.22.14:505][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.24-19.22.14:505][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.24-19.22.14:505][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76b4705d46b946ab40c494a42b3908b2|721e803206f740099b1323b4713bda8d|b988256f-2c58-43b5-bb54-1b0d265f5686
+[2016.03.24-19.22.14:505][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.24-19.22.14:511][  0]LogInit: Transaction tracking system initialized
+[2016.03.24-19.22.14:527][  0]BlueprintLog: New page: Editor Load
+[2016.03.24-19.22.14:582][  0]LocalizationService: Info Localization service is disabled
+[2016.03.24-19.22.14:635][  0]LogConsoleResponse:Display: 
+[2016.03.24-19.22.14:744][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.24-19.22.14:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/' took 0.02s
+[2016.03.24-19.22.14:780][  0]SourceControl: Info Source control is disabled
+[2016.03.24-19.22.14:780][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.24-19.22.14:782][  0]LightingResults: New page: Lighting Build
+[2016.03.24-19.22.14:784][  0]MapCheck: New page: Map Check
+[2016.03.24-19.22.14:784][  0]LightingResults: New page: Lighting Build
+[2016.03.24-19.22.14:792][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002D3F4C1BB00
+[2016.03.24-19.22.14:913][  0]LogLinker:Warning: Asset '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.24-19.22.15:337][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.03.24-19.22.15:364][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.24-19.22.15:445][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.03.24-19.22.15:641][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.03.24-19.22.15:643][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.03.24-19.22.15:644][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.03.24-19.22.15:645][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.03.24-19.22.15:647][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.03.24-19.22.15:649][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.03.24-19.22.15:650][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.03.24-19.22.15:651][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.03.24-19.22.15:653][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.03.24-19.22.15:654][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.03.24-19.22.15:656][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.03.24-19.22.15:657][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.03.24-19.22.15:658][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2016.03.24-19.22.15:660][  0]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2016.03.24-19.22.15:661][  0]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.03.24-19.22.15:662][  0]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2016.03.24-19.22.15:663][  0]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2016.03.24-19.22.15:665][  0]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2016.03.24-19.22.15:666][  0]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2016.03.24-19.22.15:670][  0]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2016.03.24-19.22.15:671][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.03.24-19.22.15:672][  0]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT)
+[2016.03.24-19.22.15:673][  0]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT)
+[2016.03.24-19.22.15:675][  0]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2016.03.24-19.22.15:676][  0]LogTexture:Display: Building textures: HQ_Lightmap1_33 (AutoDXT)
+[2016.03.24-19.22.15:677][  0]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2016.03.24-19.22.15:678][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.03.24-19.22.15:680][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.03.24-19.22.15:681][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.03.24-19.22.15:683][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.03.24-19.22.15:684][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.03.24-19.22.15:685][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.03.24-19.22.15:695][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.24-19.22.15:810][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.03.24-19.22.15:964][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.03.24-19.22.15:965][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.03.24-19.22.15:966][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.03.24-19.22.15:967][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.03.24-19.22.15:967][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.03.24-19.22.15:968][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.03.24-19.22.15:969][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.03.24-19.22.15:970][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.03.24-19.22.15:970][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.03.24-19.22.15:971][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.03.24-19.22.15:972][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.03.24-19.22.15:973][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.03.24-19.22.15:973][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2016.03.24-19.22.15:974][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2016.03.24-19.22.15:975][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2016.03.24-19.22.15:998][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2016.03.24-19.22.15:999][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2016.03.24-19.22.15:999][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2016.03.24-19.22.16:000][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2016.03.24-19.22.16:001][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2016.03.24-19.22.16:002][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.03.24-19.22.16:003][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2016.03.24-19.22.16:004][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2016.03.24-19.22.16:006][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2016.03.24-19.22.16:007][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_33 (DXT1)
+[2016.03.24-19.22.16:008][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2016.03.24-19.22.16:008][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.03.24-19.22.16:009][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.03.24-19.22.16:010][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.03.24-19.22.16:011][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.03.24-19.22.16:011][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.03.24-19.22.16:012][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.03.24-19.22.16:072][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.24-19.22.16:139][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.24-19.22.16:140][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.24-19.22.16:189][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.957ms to complete.
+[2016.03.24-19.22.16:189][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.409
+[2016.03.24-19.22.16:313][  0]LogCollectionManager: Loaded 0 collections in 0.001166 seconds
+[2016.03.24-19.22.16:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Collections/' took 0.01s
+[2016.03.24-19.22.16:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/Developers/Administrator/Collections/' took 0.01s
+[2016.03.24-19.22.16:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/Collections/' took 0.01s
+[2016.03.24-19.22.16:350][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.03.24-19.22.16:356][  0]LogContentBrowser: Native class hierarchy populated in 0.0056 seconds. Added 1893 classes and 338 folders.
+[2016.03.24-19.22.16:359][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.24-19.22.16:501][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.24-19.22.16:504][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.03.24-19.22.16:521][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.24-19.22.16:525][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.24-19.22.16:548][  0]LogLoad: Full Startup: 9.11 seconds (BP compile: 0.09 seconds)
+[2016.03.24-19.22.16:558][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.24-19.22.16:621][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.24-19.22.16:738][  0]LogRenderer: Reallocating scene render targets to support 1212x572 (Frame:2).
+[2016.03.24-19.22.16:799][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.24-19.22.19:098][254]LogAssetRegistry: Asset discovery search completed in 5.3059 seconds
+[2016.03.24-19.22.19:098][254]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.24-19.22.19:098][254]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.03.24-19.22.50:419][477]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Ladder.obj)
+[2016.03.24-19.22.50:493][477]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Ladder.obj
+[2016.03.24-19.22.50:821][477]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.22.52:570][477]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Ladder.obj
+[2016.03.24-19.22.52:887][477]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.22.52:911][477]LogLinker:Warning: Can't find file '/Game/TargetAssets/Ladder/None'
+[2016.03.24-19.22.52:911][477]LogLinker:Warning: Can't find file '/Game/TargetAssets/Ladder/None'
+[2016.03.24-19.22.52:915][477]LogLinker:Warning: Can't find file '/Game/TargetAssets/Ladder/Rust_Metal'
+[2016.03.24-19.22.52:915][477]LogLinker:Warning: Can't find file '/Game/TargetAssets/Ladder/Rust_Metal'
+[2016.03.24-19.22.52:915][477]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TargetAssets/Ladder/Rust_Metal.Rust_Metal'
+[2016.03.24-19.22.52:915][477]LogStreaming:Warning: Failed to read file 'C:\Users\kacpe_000\Desktop\Nowy folder (13)\Material\Rust_Metal.bmp' error.
+[2016.03.24-19.22.52:915][477]LogStreaming:Warning: Failed to read file '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/' error.
+[2016.03.24-19.22.52:915][477]LogStreaming:Warning: Failed to read file '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/' error.
+[2016.03.24-19.22.52:915][477]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\kacpe_000\Desktop\Nowy folder (13)\Material\Rust_Metal.bmp
+ - ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/
+ - ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/
+[2016.03.24-19.22.52:920][477]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.03.24-19.22.52:935][477]LogFbx:Warning: Triangulating static mesh default
+[2016.03.24-19.22.54:424][477]LogStaticMesh: Building static mesh Ladder...
+[2016.03.24-19.22.54:841][477]LogStaticMesh: Built static mesh [0.417673.2s] /Game/TargetAssets/Ladder/Ladder.Ladder
+[2016.03.24-19.22.54:861][477]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.24-19.23.02:433][ 10]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Materials/Rust_Metal.bmp)
+[2016.03.24-19.23.02:448][ 10]LogTexture:Display: Building textures: Rust_Metal (AutoDXT)
+[2016.03.24-19.23.03:343][ 10]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Materials/Rust_Metal.tga)
+[2016.03.24-19.23.03:365][ 10]LogTexture:Display: Building textures: Rust_Metal_0 (AutoDXT)
+[2016.03.24-19.23.21:767][342]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/Desk.obj)
+[2016.03.24-19.23.21:834][342]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/Desk.obj
+[2016.03.24-19.23.21:857][342]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.23.22:985][342]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/Desk.obj
+[2016.03.24-19.23.23:007][342]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.23.23:029][342]LogLinker:Warning: Can't find file '/Game/TargetAssets/Desk/DeskMat'
+[2016.03.24-19.23.23:030][342]LogLinker:Warning: Can't find file '/Game/TargetAssets/Desk/DeskMat'
+[2016.03.24-19.23.23:034][342]LogMaterial: Missing cached shader map for material DeskMat, compiling. 
+[2016.03.24-19.23.23:040][342]LogFbx:Warning: Triangulating static mesh Desk
+[2016.03.24-19.23.23:132][342]LogStaticMesh: Building static mesh Desk...
+[2016.03.24-19.23.23:160][342]LogStaticMesh: Built static mesh [0.027974.2s] /Game/TargetAssets/Desk/Desk.Desk
+[2016.03.24-19.23.23:166][342]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.24-19.23.29:554][810]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/tex/DeskWood_Diffuse.tga)
+[2016.03.24-19.23.29:570][810]LogTexture:Display: Building textures: DeskWood_Diffuse (AutoDXT)
+[2016.03.24-19.23.29:821][810]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/tex/DeskWood_Dirty_Diffuse.tga)
+[2016.03.24-19.23.29:839][810]LogTexture:Display: Building textures: DeskWood_Dirty_Diffuse (AutoDXT)
+[2016.03.24-19.23.30:089][810]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/tex/DeskWood_Dirty_Normal.tga)
+[2016.03.24-19.23.30:097][810]LogTexture:Display: Building textures: DeskWood_Dirty_Normal (BC5)
+[2016.03.24-19.23.30:121][810]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/tex/DeskWood_Dirty_Spec.tga)
+[2016.03.24-19.23.30:127][810]LogTexture:Display: Building textures: DeskWood_Dirty_Spec (AutoDXT)
+[2016.03.24-19.23.30:183][810]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/tex/DeskWood_Normal.tga)
+[2016.03.24-19.23.30:192][810]LogTexture:Display: Building textures: DeskWood_Normal (BC5)
+[2016.03.24-19.23.30:277][810]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Desk/tex/DeskWood_Spec.tga)
+[2016.03.24-19.23.30:295][810]LogTexture:Display: Building textures: DeskWood_Spec (AutoDXT)
+[2016.03.24-19.23.42:102][649]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Office_Chair/Office_Chair.obj)
+[2016.03.24-19.23.42:169][649]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Office_Chair/Office_Chair.obj
+[2016.03.24-19.23.42:194][649]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.23.43:200][649]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Office_Chair/Office_Chair.obj
+[2016.03.24-19.23.43:224][649]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.23.43:246][649]LogLinker:Warning: Can't find file '/Game/TargetAssets/Chair/Mesh0Mat'
+[2016.03.24-19.23.43:246][649]LogLinker:Warning: Can't find file '/Game/TargetAssets/Chair/Mesh0Mat'
+[2016.03.24-19.23.43:252][649]LogMaterial: Missing cached shader map for material Mesh0Mat, compiling. 
+[2016.03.24-19.23.43:259][649]LogLinker:Warning: Can't find file '/Game/TargetAssets/Chair/Mesh0_Mesh01Mat'
+[2016.03.24-19.23.43:259][649]LogLinker:Warning: Can't find file '/Game/TargetAssets/Chair/Mesh0_Mesh01Mat'
+[2016.03.24-19.23.43:266][649]LogMaterial: Missing cached shader map for material Mesh0_Mesh01Mat, compiling. 
+[2016.03.24-19.23.43:279][649]LogStaticMesh: Building static mesh Office_Chair...
+[2016.03.24-19.23.43:295][649]LogStaticMesh: Built static mesh [0.017215.2s] /Game/TargetAssets/Chair/Office_Chair.Office_Chair
+[2016.03.24-19.23.43:302][649]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.24-19.23.50:068][991]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Office_Chair/tex/OfficeChair_colo.tga)
+[2016.03.24-19.23.50:080][991]LogTexture:Display: Building textures: OfficeChair_colo (AutoDXT)
+[2016.03.24-19.23.50:254][991]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Office_Chair/tex/OfficeChair_norm.tga)
+[2016.03.24-19.23.50:262][991]LogTexture:Display: Building textures: OfficeChair_norm (BC5)
+[2016.03.24-19.23.50:288][991]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/Office_Chair/tex/OfficeChair_spec.tga)
+[2016.03.24-19.23.50:293][991]LogTexture:Display: Building textures: OfficeChair_spec (AutoDXT)
+[2016.03.24-19.24.10:384][330]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_01/Cargo_container_01.obj)
+[2016.03.24-19.24.10:446][330]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_01/Cargo_container_01.obj
+[2016.03.24-19.24.10:487][330]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.24.11:679][330]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_01/Cargo_container_01.obj
+[2016.03.24-19.24.11:718][330]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.24.11:740][330]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo01'
+[2016.03.24-19.24.11:740][330]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo01'
+[2016.03.24-19.24.11:742][330]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo01_D'
+[2016.03.24-19.24.11:742][330]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo01_D'
+[2016.03.24-19.24.11:742][330]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TargetAssets/CargoContainer/Cargo01_D.Cargo01_D'
+[2016.03.24-19.24.11:754][330]LogTexture:Display: Building textures: Cargo01_D (AutoDXT)
+[2016.03.24-19.24.11:972][330]LogMaterial: Missing cached shader map for material Cargo01, compiling. 
+[2016.03.24-19.24.11:983][330]LogStaticMesh: Building static mesh Cargo_container_01...
+[2016.03.24-19.24.12:014][330]LogStaticMesh: Built static mesh [0.030642.2s] /Game/TargetAssets/CargoContainer/Cargo_container_01.Cargo_container_01
+[2016.03.24-19.24.14:913][330]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_01/Cargo01_D.tga)
+[2016.03.24-19.24.16:903][330]LogTexture:Display: Building textures: Cargo01_D (AutoDXT)
+[2016.03.24-19.24.17:116][330]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_01/Cargo01_N.tga)
+[2016.03.24-19.24.17:132][330]LogTexture:Display: Building textures: Cargo01_N (BC5)
+[2016.03.24-19.24.17:225][330]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_01/Cargo01_S.tga)
+[2016.03.24-19.24.17:243][330]LogTexture:Display: Building textures: Cargo01_S (AutoDXT)
+[2016.03.24-19.24.24:851][754]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_02/Cargo_container_02.obj)
+[2016.03.24-19.24.24:914][754]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_02/Cargo_container_02.obj
+[2016.03.24-19.24.24:940][754]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.24.26:126][754]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_02/Cargo_container_02.obj
+[2016.03.24-19.24.26:152][754]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.24.26:174][754]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo02'
+[2016.03.24-19.24.26:174][754]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo02'
+[2016.03.24-19.24.26:175][754]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo02_D'
+[2016.03.24-19.24.26:175][754]LogLinker:Warning: Can't find file '/Game/TargetAssets/CargoContainer/Cargo02_D'
+[2016.03.24-19.24.26:176][754]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TargetAssets/CargoContainer/Cargo02_D.Cargo02_D'
+[2016.03.24-19.24.26:188][754]LogTexture:Display: Building textures: Cargo02_D (AutoDXT)
+[2016.03.24-19.24.26:403][754]LogMaterial: Missing cached shader map for material Cargo02, compiling. 
+[2016.03.24-19.24.26:415][754]LogStaticMesh: Building static mesh Cargo_container_02...
+[2016.03.24-19.24.26:431][754]LogStaticMesh: Built static mesh [0.015759.2s] /Game/TargetAssets/CargoContainer/Cargo_container_02.Cargo_container_02
+[2016.03.24-19.24.26:436][754]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.24-19.24.27:698][754]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_02/Cargo02_D.tga)
+[2016.03.24-19.24.28:728][754]LogTexture:Display: Building textures: Cargo02_D (AutoDXT)
+[2016.03.24-19.24.28:968][754]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_02/Cargo02_N.tga)
+[2016.03.24-19.24.28:984][754]LogTexture:Display: Building textures: Cargo02_N (BC5)
+[2016.03.24-19.24.29:078][754]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/cargo/Cargo_container_02/Cargo02_S.tga)
+[2016.03.24-19.24.29:095][754]LogTexture:Display: Building textures: Cargo02_S (AutoDXT)
+[2016.03.24-19.24.53:801][713]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/oildrum.obj)
+[2016.03.24-19.24.53:865][713]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/oildrum.obj
+[2016.03.24-19.24.53:895][713]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.24.55:154][713]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/oildrum.obj
+[2016.03.24-19.24.55:182][713]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.24.55:205][713]LogLinker:Warning: Can't find file '/Game/TargetAssets/Barrel/Oildrum-ref'
+[2016.03.24-19.24.55:205][713]LogLinker:Warning: Can't find file '/Game/TargetAssets/Barrel/Oildrum-ref'
+[2016.03.24-19.24.55:207][713]LogLinker:Warning: Can't find file '/Game/TargetAssets/Barrel/oil-drum_col'
+[2016.03.24-19.24.55:207][713]LogLinker:Warning: Can't find file '/Game/TargetAssets/Barrel/oil-drum_col'
+[2016.03.24-19.24.55:207][713]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TargetAssets/Barrel/oil-drum_col.oil-drum_col'
+[2016.03.24-19.24.55:207][713]LogStreaming:Warning: Failed to read file '..\..\..\..\..\..\Users\Administrator.BRADDLESTATION\Desktop\desk\barrel\sources\oil-drum_col.jpg' error.
+[2016.03.24-19.24.55:207][713]LogStreaming:Warning: Failed to read file '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/' error.
+[2016.03.24-19.24.55:207][713]LogStreaming:Warning: Failed to read file '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/' error.
+[2016.03.24-19.24.55:207][713]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - ..\..\..\..\..\..\Users\Administrator.BRADDLESTATION\Desktop\desk\barrel\sources\oil-drum_col.jpg
+ - ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/
+ - ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/
+[2016.03.24-19.24.55:210][713]LogMaterial: Missing cached shader map for material Oildrum-ref, compiling. 
+[2016.03.24-19.24.55:216][713]LogFbx:Warning: Triangulating static mesh default
+[2016.03.24-19.24.55:351][713]LogStaticMesh: Building static mesh oildrum...
+[2016.03.24-19.24.55:386][713]LogStaticMesh: Built static mesh [0.035065.2s] /Game/TargetAssets/Barrel/oildrum.oildrum
+[2016.03.24-19.24.55:393][713]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.03.24-19.25.03:384][108]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/barrel/oildrum_col.jpg)
+[2016.03.24-19.25.03:431][108]LogTexture:Display: Building textures: oildrum_col (AutoDXT)
+[2016.03.24-19.25.08:679][608]LogActorFactory: Actor Factory created oildrum
+[2016.03.24-19.25.09:001][646]LogActorFactory: Actor Factory created oildrum
+[2016.03.24-19.25.24:163][444]LogMaterial: Missing cached shader map for material oildrum_col_Mat, compiling. 
+[2016.03.24-19.26.04:070][390]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Ladder.obj)
+[2016.03.24-19.26.04:135][390]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Ladder.obj
+[2016.03.24-19.26.04:465][390]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.26.05:621][390]LogFbx: Loading FBX Scene from ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Ladder.obj
+[2016.03.24-19.26.05:942][390]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.24-19.26.05:967][390]LogLinker:Warning: Can't find file '/Game/TargetAssets/CustomLadder/None'
+[2016.03.24-19.26.05:967][390]LogLinker:Warning: Can't find file '/Game/TargetAssets/CustomLadder/None'
+[2016.03.24-19.26.05:969][390]LogLinker:Warning: Can't find file '/Game/TargetAssets/CustomLadder/Rust_Metal'
+[2016.03.24-19.26.05:969][390]LogLinker:Warning: Can't find file '/Game/TargetAssets/CustomLadder/Rust_Metal'
+[2016.03.24-19.26.05:969][390]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TargetAssets/CustomLadder/Rust_Metal.Rust_Metal'
+[2016.03.24-19.26.05:969][390]LogStreaming:Warning: Failed to read file 'C:\Users\kacpe_000\Desktop\Nowy folder (13)\Material\Rust_Metal.bmp' error.
+[2016.03.24-19.26.05:969][390]LogStreaming:Warning: Failed to read file '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/' error.
+[2016.03.24-19.26.05:969][390]LogStreaming:Warning: Failed to read file '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/' error.
+[2016.03.24-19.26.05:969][390]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\kacpe_000\Desktop\Nowy folder (13)\Material\Rust_Metal.bmp
+ - ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/
+ - ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/
+[2016.03.24-19.26.05:973][390]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.03.24-19.26.05:981][390]LogFbx:Warning: Triangulating static mesh default
+[2016.03.24-19.26.07:494][390]LogStaticMesh: Building static mesh Ladder...
+[2016.03.24-19.26.07:920][390]LogStaticMesh: Built static mesh [0.426924.2s] /Game/TargetAssets/CustomLadder/Ladder.Ladder
+[2016.03.24-19.26.07:941][390]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.24-19.26.13:652][707]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Materials/Rust_Metal.bmp)
+[2016.03.24-19.26.13:667][707]LogTexture:Display: Building textures: Rust_Metal (AutoDXT)
+[2016.03.24-19.26.14:560][707]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/desk/ladder/Materials/Rust_Metal.tga)
+[2016.03.24-19.26.14:581][707]LogTexture:Display: Building textures: Rust_Metal_1 (AutoDXT)
+[2016.03.24-19.26.18:455][ 58]LogActorFactory: Actor Factory created Cargo_container_01
+[2016.03.24-19.26.19:402][166]LogActorFactory: Actor Factory created Cargo_container_01
+[2016.03.24-19.26.28:164][209]LogActorFactory: Actor Factory created Cargo_container_02
+[2016.03.24-19.26.28:341][229]LogActorFactory: Actor Factory created Cargo_container_02
+[2016.03.24-19.26.28:799][282]LogActorFactory: Actor Factory created Cargo_container_02
+[2016.03.24-19.26.43:079][942]LogActorFactory: Actor Factory created Office_Chair
+[2016.03.24-19.26.43:467][986]LogActorFactory: Actor Factory created Office_Chair
+[2016.03.24-19.26.49:265][674]LogMaterial: Missing cached shader map for material OfficeChair_colo_Mat, compiling. 
+[2016.03.24-19.26.54:937][321]LogActorFactory: Actor Factory created Desk
+[2016.03.24-19.26.55:590][395]LogActorFactory: Actor Factory created Desk
+[2016.03.24-19.26.59:557][828]LogMaterial: Missing cached shader map for material DeskWood_Dirty_Mat, compiling. 
+[2016.03.24-19.27.11:776][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cargo_container_01)
+[2016.03.24-19.27.22:821][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cargo_container_02)
+[2016.03.24-19.27.37:771][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cargo_container_02)
+[2016.03.24-19.28.02:918][ 85]LogActorFactory: Actor Factory created Ladder
+[2016.03.24-19.28.03:243][122]LogActorFactory: Actor Factory created Ladder
+[2016.03.24-19.28.15:516][575]LogMaterial: Missing cached shader map for material Rust_Metal_Mat, compiling. 
+[2016.03.24-19.28.42:775][735]LogSavePackage: Save=402.702179ms
+[2016.03.24-19.28.42:775][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/FirstPersonExampleMapACBA298D4E2F564C654E64AECD948F16.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.24-19.28.42:777][735]LogSavePackage: Total save time: 418.465160ms
+[2016.03.24-19.28.42:777][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.24-19.28.42:799][735]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.497
+[2016.03.24-19.28.42:814][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetAssets/Ladder/Ladder" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Ladder.uasset" SILENT=true
+[2016.03.24-19.28.42:825][735]LogSavePackage: Save=9.339968ms
+[2016.03.24-19.28.42:825][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Ladder87326D27430545C0D193D18C2CE1DEC3.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Ladder.uasset'
+[2016.03.24-19.28.42:826][735]LogSavePackage: Total save time: 10.836709ms
+[2016.03.24-19.28.42:826][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Ladder.uasset
+[2016.03.24-19.28.42:841][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetAssets/Ladder/None" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/None.uasset" SILENT=true
+[2016.03.24-19.28.42:853][735]LogSavePackage: Save=10.909141ms
+[2016.03.24-19.28.42:853][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/NoneC8A57FF340CB5C9C29B619882350559E.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/None.uasset'
+[2016.03.24-19.28.42:855][735]LogSavePackage: Total save time: 12.579191ms
+[2016.03.24-19.28.42:855][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/None.uasset
+[2016.03.24-19.28.43:174][735]LogSavePackage: Save=298.610352ms
+[2016.03.24-19.28.43:174][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Rust_MetalDC1C808741849B2E5BD1239F9490E571.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Rust_Metal.uasset'
+[2016.03.24-19.28.43:175][735]LogSavePackage: Total save time: 300.315298ms
+[2016.03.24-19.28.43:175][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Rust_Metal.uasset
+[2016.03.24-19.28.43:190][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetAssets/Desk/Desk" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/Desk.uasset" SILENT=true
+[2016.03.24-19.28.43:202][735]LogSavePackage: Save=9.635856ms
+[2016.03.24-19.28.43:202][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Desk0136E9404957609182BB849216C974CA.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/Desk.uasset'
+[2016.03.24-19.28.43:203][735]LogSavePackage: Total save time: 11.433177ms
+[2016.03.24-19.28.43:203][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/Desk.uasset
+[2016.03.24-19.28.43:220][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetAssets/Desk/DeskMat" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskMat.uasset" SILENT=true
+[2016.03.24-19.28.43:231][735]LogSavePackage: Save=10.041712ms
+[2016.03.24-19.28.43:231][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskMat2C5990FC439FE91D5B291AAEF8A6C054.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskMat.uasset'
+[2016.03.24-19.28.43:232][735]LogSavePackage: Total save time: 11.575110ms
+[2016.03.24-19.28.43:232][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskMat.uasset
+[2016.03.24-19.28.43:359][735]LogSavePackage: Save=114.118279ms
+[2016.03.24-19.28.43:359][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_DiffuseFE360B2E413EB9D998B0F594FF75CCCC.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Diffuse.uasset'
+[2016.03.24-19.28.43:360][735]LogSavePackage: Total save time: 115.810618ms
+[2016.03.24-19.28.43:360][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Diffuse.uasset
+[2016.03.24-19.28.43:495][735]LogSavePackage: Save=121.006691ms
+[2016.03.24-19.28.43:495][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Dirty_Diffuse0E2247894973EAB4AB77199C67C9F344.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Diffuse.uasset'
+[2016.03.24-19.28.43:496][735]LogSavePackage: Total save time: 122.837435ms
+[2016.03.24-19.28.43:497][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Diffuse.uasset
+[2016.03.24-19.28.43:531][735]LogSavePackage: Save=20.023893ms
+[2016.03.24-19.28.43:531][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Dirty_NormalEC23A4534F43DD4A1CC14498FB9B65AA.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Normal.uasset'
+[2016.03.24-19.28.43:533][735]LogSavePackage: Total save time: 21.954350ms
+[2016.03.24-19.28.43:533][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Normal.uasset
+[2016.03.24-19.28.43:580][735]LogSavePackage: Save=34.363457ms
+[2016.03.24-19.28.43:580][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Dirty_SpecBACA2FDE4A41DF9C9256409004449CAC.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Spec.uasset'
+[2016.03.24-19.28.43:581][735]LogSavePackage: Total save time: 36.115322ms
+[2016.03.24-19.28.43:581][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Spec.uasset
+[2016.03.24-19.28.43:637][735]LogSavePackage: Save=42.205803ms
+[2016.03.24-19.28.43:637][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Normal7F831551492044C3D36D78A8FE321B09.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Normal.uasset'
+[2016.03.24-19.28.43:639][735]LogSavePackage: Total save time: 44.059720ms
+[2016.03.24-19.28.43:639][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Normal.uasset
+[2016.03.24-19.28.43:754][735]LogSavePackage: Save=102.459297ms
+[2016.03.24-19.28.43:754][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Spec9260B6354281FA4CBEF39E80780B2BBB.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Spec.uasset'
+[2016.03.24-19.28.43:756][735]LogSavePackage: Total save time: 104.485355ms
+[2016.03.24-19.28.43:756][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Spec.uasset
+[2016.03.24-19.28.43:784][735]LogSavePackage: Save=10.695656ms
+[2016.03.24-19.28.43:784][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Office_ChairE9C75B984E7AE7142EA6C290F2E70D61.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Office_Chair.uasset'
+[2016.03.24-19.28.43:786][735]LogSavePackage: Total save time: 12.677427ms
+[2016.03.24-19.28.43:786][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Office_Chair.uasset
+[2016.03.24-19.28.43:802][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetAssets/Chair/Mesh0Mat" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Mesh0Mat.uasset" SILENT=true
+[2016.03.24-19.28.43:814][735]LogSavePackage: Save=10.220300ms
+[2016.03.24-19.28.43:814][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Mesh0MatF19317334546967878590BB9B40F7EFC.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Mesh0Mat.uasset'
+[2016.03.24-19.28.43:815][735]LogSavePackage: Total save time: 11.847243ms
+[2016.03.24-19.28.43:815][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Mesh0Mat.uasset
+[2016.03.24-19.28.43:844][735]LogSavePackage: Save=10.449034ms
+[2016.03.24-19.28.43:844][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Mesh0_Mesh01MatFA2B31884A905B226DCD1797F78084AA.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Mesh0_Mesh01Mat.uasset'
+[2016.03.24-19.28.43:845][735]LogSavePackage: Total save time: 12.459841ms
+[2016.03.24-19.28.43:845][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/Mesh0_Mesh01Mat.uasset
+[2016.03.24-19.28.43:958][735]LogSavePackage: Save=99.862877ms
+[2016.03.24-19.28.43:958][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/OfficeChair_colo1DFBA94E47A6E6FE68C0A8863F79B552.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_colo.uasset'
+[2016.03.24-19.28.43:960][735]LogSavePackage: Total save time: 101.588938ms
+[2016.03.24-19.28.43:960][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_colo.uasset
+[2016.03.24-19.28.44:000][735]LogSavePackage: Save=26.613777ms
+[2016.03.24-19.28.44:000][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/OfficeChair_normCBDB5D30475007E8B1938C9A8CAED667.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_norm.uasset'
+[2016.03.24-19.28.44:002][735]LogSavePackage: Total save time: 29.566791ms
+[2016.03.24-19.28.44:002][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_norm.uasset
+[2016.03.24-19.28.44:045][735]LogSavePackage: Save=30.367651ms
+[2016.03.24-19.28.44:045][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/OfficeChair_spec50E27AE74592D48E152C68A80ADE50FC.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_spec.uasset'
+[2016.03.24-19.28.44:047][735]LogSavePackage: Total save time: 32.387257ms
+[2016.03.24-19.28.44:047][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_spec.uasset
+[2016.03.24-19.28.44:076][735]LogSavePackage: Save=10.572492ms
+[2016.03.24-19.28.44:076][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo_container_01B5DDC6064FA1006101458FB9FE198C42.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo_container_01.uasset'
+[2016.03.24-19.28.44:077][735]LogSavePackage: Total save time: 12.438726ms
+[2016.03.24-19.28.44:078][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo_container_01.uasset
+[2016.03.24-19.28.44:109][735]LogSavePackage: Save=13.125514ms
+[2016.03.24-19.28.44:109][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo01C751AAEF4CA5AB79F0A2A0B4F7F6A31D.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01.uasset'
+[2016.03.24-19.28.44:111][735]LogSavePackage: Total save time: 14.845122ms
+[2016.03.24-19.28.44:111][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01.uasset
+[2016.03.24-19.28.44:231][735]LogSavePackage: Save=106.498215ms
+[2016.03.24-19.28.44:231][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo01_DB2173DE146DCC06013D055AAD41525A1.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01_D.uasset'
+[2016.03.24-19.28.44:232][735]LogSavePackage: Total save time: 108.056244ms
+[2016.03.24-19.28.44:232][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01_D.uasset
+[2016.03.24-19.28.44:315][735]LogSavePackage: Save=70.104012ms
+[2016.03.24-19.28.44:315][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo01_N64D1D2CA4C86E41B453646B1FE87F609.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01_N.uasset'
+[2016.03.24-19.28.44:317][735]LogSavePackage: Total save time: 72.186954ms
+[2016.03.24-19.28.44:317][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01_N.uasset
+[2016.03.24-19.28.44:429][735]LogSavePackage: Save=99.677544ms
+[2016.03.24-19.28.44:429][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo01_SA9330C90422D93B690D669978F6660C1.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01_S.uasset'
+[2016.03.24-19.28.44:430][735]LogSavePackage: Total save time: 101.594806ms
+[2016.03.24-19.28.44:430][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01_S.uasset
+[2016.03.24-19.28.44:459][735]LogSavePackage: Save=10.853424ms
+[2016.03.24-19.28.44:459][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo_container_02612BF5DA46EF067B5E82D0AE7DF0B58D.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo_container_02.uasset'
+[2016.03.24-19.28.44:461][735]LogSavePackage: Total save time: 12.509108ms
+[2016.03.24-19.28.44:461][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo_container_02.uasset
+[2016.03.24-19.28.44:492][735]LogSavePackage: Save=13.357473ms
+[2016.03.24-19.28.44:492][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo02B28F0C1E470E886BFBFD199024F9231A.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02.uasset'
+[2016.03.24-19.28.44:494][735]LogSavePackage: Total save time: 15.216377ms
+[2016.03.24-19.28.44:494][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02.uasset
+[2016.03.24-19.28.44:614][735]LogSavePackage: Save=106.416397ms
+[2016.03.24-19.28.44:614][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo02_D096C78D14FA37F97E407BFA6BB0BDF66.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02_D.uasset'
+[2016.03.24-19.28.44:615][735]LogSavePackage: Total save time: 108.072076ms
+[2016.03.24-19.28.44:615][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02_D.uasset
+[2016.03.24-19.28.44:698][735]LogSavePackage: Save=70.194328ms
+[2016.03.24-19.28.44:698][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo02_NE5A3444E48E61C713EFD038194CBF4AA.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02_N.uasset'
+[2016.03.24-19.28.44:700][735]LogSavePackage: Total save time: 72.328884ms
+[2016.03.24-19.28.44:700][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02_N.uasset
+[2016.03.24-19.28.44:813][735]LogSavePackage: Save=99.833549ms
+[2016.03.24-19.28.44:813][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo02_S96C6760B48B64BE4EE25318B7ABCD7D2.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02_S.uasset'
+[2016.03.24-19.28.44:814][735]LogSavePackage: Total save time: 101.690695ms
+[2016.03.24-19.28.44:814][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02_S.uasset
+[2016.03.24-19.28.44:829][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetAssets/Barrel/oildrum" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum.uasset" SILENT=true
+[2016.03.24-19.28.44:840][735]LogSavePackage: Save=9.133227ms
+[2016.03.24-19.28.44:840][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/oildrum70DA6E1E48A9935764E051AFDFC9ADC6.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum.uasset'
+[2016.03.24-19.28.44:841][735]LogSavePackage: Total save time: 10.719996ms
+[2016.03.24-19.28.44:841][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum.uasset
+[2016.03.24-19.28.44:870][735]LogSavePackage: Save=10.663105ms
+[2016.03.24-19.28.44:871][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Oildrum-ref6C67D4D640889F6969BCBDA2D316C42B.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/Oildrum-ref.uasset'
+[2016.03.24-19.28.44:872][735]LogSavePackage: Total save time: 12.363944ms
+[2016.03.24-19.28.44:872][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/Oildrum-ref.uasset
+[2016.03.24-19.28.45:069][735]LogSavePackage: Save=185.349533ms
+[2016.03.24-19.28.45:069][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/oildrum_colA30309FA4E391FD58DB5E6979B88CEF4.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum_col.uasset'
+[2016.03.24-19.28.45:071][735]LogSavePackage: Total save time: 187.327791ms
+[2016.03.24-19.28.45:071][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum_col.uasset
+[2016.03.24-19.28.45:103][735]LogSavePackage: Save=13.088565ms
+[2016.03.24-19.28.45:103][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/oildrum_col_MatF400CA95424A7F86D88D0582329B4D03.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum_col_Mat.uasset'
+[2016.03.24-19.28.45:104][735]LogSavePackage: Total save time: 14.901720ms
+[2016.03.24-19.28.45:104][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum_col_Mat.uasset
+[2016.03.24-19.28.45:136][735]LogSavePackage: Save=13.150733ms
+[2016.03.24-19.28.45:136][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Rust_Metal_Mat97E54F28400DBB854565FA8F0A41E82C.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Rust_Metal_Mat.uasset'
+[2016.03.24-19.28.45:137][735]LogSavePackage: Total save time: 15.177373ms
+[2016.03.24-19.28.45:137][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Rust_Metal_Mat.uasset
+[2016.03.24-19.28.45:168][735]LogSavePackage: Save=12.761593ms
+[2016.03.24-19.28.45:168][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/OfficeChair_colo_Mat54284F0D429214B66457D1B062F98BC8.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_colo_Mat.uasset'
+[2016.03.24-19.28.45:170][735]LogSavePackage: Total save time: 14.871806ms
+[2016.03.24-19.28.45:170][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_colo_Mat.uasset
+[2016.03.24-19.28.45:201][735]LogSavePackage: Save=13.031967ms
+[2016.03.24-19.28.45:201][735]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Dirty_MatDAB4CC104EA9EEE839D025B825AEB531.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Mat.uasset'
+[2016.03.24-19.28.45:203][735]LogSavePackage: Total save time: 15.039548ms
+[2016.03.24-19.28.45:203][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Mat.uasset
+[2016.03.24-19.28.45:844][810]MapCheck: New page: Map Check
+[2016.03.24-19.28.45:867][810]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.24-19.28.45:868][810]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.24-19.28.46:111][810]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.03.24-19.28.46:111][810]LogStats:          STAT_HLOD_BuildClusters - 15.090 ms
+[2016.03.24-19.28.46:112][810]LightingResults: New page: Lighting Build - Mar 24, 2016, 11:28:46 AM
+[2016.03.24-19.28.49:992][810]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.24-19.28.49:992][810]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.24-19.28.49:992][810]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.24-19.28.49:992][810]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.24-19.28.49:992][810]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.24-19.28.50:338][810]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.24-19.28.50:344][810]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_26, compiling. 
+[2016.03.24-19.28.50:347][810]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_26, compiling. 
+[2016.03.24-19.28.50:352][810]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.03.24-19.28.50:355][810]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.03.24-19.28.50:370][811]Cmd: UpdateLandscapeEditorData
+[2016.03.24-19.28.50:374][811]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2016.03.24-19.28.50:378][811]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2016.03.24-19.28.50:778][824]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer oildrum_col_Mat, compiling. 
+[2016.03.24-19.28.50:782][824]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer oildrum_col_Mat, compiling. 
+[2016.03.24-19.28.50:794][825]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cargo01, compiling. 
+[2016.03.24-19.28.50:797][825]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cargo01, compiling. 
+[2016.03.24-19.28.50:801][825]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cargo02, compiling. 
+[2016.03.24-19.28.50:804][825]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cargo02, compiling. 
+[2016.03.24-19.28.50:816][826]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OfficeChair_colo_Mat, compiling. 
+[2016.03.24-19.28.50:820][826]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OfficeChair_colo_Mat, compiling. 
+[2016.03.24-19.28.50:824][826]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DeskWood_Dirty_Mat, compiling. 
+[2016.03.24-19.28.50:828][826]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DeskWood_Dirty_Mat, compiling. 
+[2016.03.24-19.28.50:838][827]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rust_Metal_Mat, compiling. 
+[2016.03.24-19.28.50:841][827]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rust_Metal_Mat, compiling. 
+[2016.03.24-19.28.50:845][827]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.03.24-19.28.50:850][827]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.03.24-19.29.14:581][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.24-19.29.14:581][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-19.29.14:581][392]PIE: New page: PIE session: FirstPersonExampleMap (Mar 24, 2016, 11:29:14 AM)
+[2016.03.24-19.29.14:581][392]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.24-19.29.14:625][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043550s)
+[2016.03.24-19.29.14:626][392]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.24-19.29.14:626][392]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2016.03.24-19.29.14:626][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044699s)
+[2016.03.24-19.29.14:642][392]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.24-19.29.14:649][392]LogInit: FAudioDevice initialized.
+[2016.03.24-19.29.14:695][392]LogLinker:Warning: Asset '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.24-19.29.14:712][392]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.24-19.29.14:725][392]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.24-15.29.14
+[2016.03.24-19.29.14:725][392]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-19.29.14:725][392]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-19.29.14:727][392]LogWorld: Bringing up level for play took: 0.013965
+[2016.03.24-19.29.14:728][392]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.478
+[2016.03.24-19.29.14:728][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.24-19.29.18:889][877]Job is a success!
+[2016.03.24-19.29.22:512][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.24-19.29.22:552][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.24-19.29.22:605][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002D3A4AF67A0
+[2016.03.24-19.29.23:875][422]LogMaterial:Warning: Material /Game/TargetAssets/Barrel/oildrum_col_Mat.oildrum_col_Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.03.24-19.29.23:877][422]LogMaterial: Missing cached shader map for material oildrum_col_Mat, compiling. 
+[2016.03.24-19.29.23:886][422]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-19.29.23:887][422]LogMaterial:Warning: Material /Game/TargetAssets/CargoContainer/Cargo01.Cargo01 needed to have new flag set bUsedWithStaticLighting !
+[2016.03.24-19.29.23:888][422]LogMaterial: Missing cached shader map for material Cargo01, compiling. 
+[2016.03.24-19.29.23:893][422]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-19.29.23:893][422]LogMaterial:Warning: Material /Game/TargetAssets/CargoContainer/Cargo02.Cargo02 needed to have new flag set bUsedWithStaticLighting !
+[2016.03.24-19.29.23:895][422]LogMaterial: Missing cached shader map for material Cargo02, compiling. 
+[2016.03.24-19.29.23:901][422]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-19.29.23:901][422]LogMaterial:Warning: Material /Game/TargetAssets/Ladder/Rust_Metal_Mat.Rust_Metal_Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.03.24-19.29.23:902][422]LogMaterial: Missing cached shader map for material Rust_Metal_Mat, compiling. 
+[2016.03.24-19.29.23:907][422]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-19.29.23:907][422]LogMaterial:Warning: Material /Game/TargetAssets/Chair/OfficeChair_colo_Mat.OfficeChair_colo_Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.03.24-19.29.23:910][422]LogMaterial: Missing cached shader map for material OfficeChair_colo_Mat, compiling. 
+[2016.03.24-19.29.23:915][422]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-19.29.23:915][422]LogMaterial:Warning: Material /Game/TargetAssets/Desk/DeskWood_Dirty_Mat.DeskWood_Dirty_Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.03.24-19.29.23:917][422]LogMaterial: Missing cached shader map for material DeskWood_Dirty_Mat, compiling. 
+[2016.03.24-19.29.23:922][422]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-19.29.24:229][422]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.24-19.29.24:427][422]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2016.03.24-19.29.24:428][422]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2016.03.24-19.29.24:429][422]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2016.03.24-19.29.24:429][422]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2016.03.24-19.29.24:431][422]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2016.03.24-19.29.24:431][422]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2016.03.24-19.29.24:432][422]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2016.03.24-19.29.24:433][422]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2016.03.24-19.29.24:434][422]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2016.03.24-19.29.24:435][422]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2016.03.24-19.29.24:436][422]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2016.03.24-19.29.24:446][422]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2016.03.24-19.29.24:447][422]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.03.24-19.29.24:447][422]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.03.24-19.29.24:449][422]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.03.24-19.29.24:451][422]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.03.24-19.29.24:452][422]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.03.24-19.29.24:453][422]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.03.24-19.29.24:454][422]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.03.24-19.29.24:456][422]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.03.24-19.29.24:457][422]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.03.24-19.29.24:458][422]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.03.24-19.29.24:459][422]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.03.24-19.29.24:459][422]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.03.24-19.29.24:461][422]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.03.24-19.29.24:462][422]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.03.24-19.29.24:463][422]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.03.24-19.29.24:464][422]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.03.24-19.29.24:465][422]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.03.24-19.29.24:465][422]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.03.24-19.29.24:466][422]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.03.24-19.29.24:467][422]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.03.24-19.29.24:468][422]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.03.24-19.29.24:469][422]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.03.24-19.29.24:470][422]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.03.24-19.29.24:471][422]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.03.24-19.29.24:472][422]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.03.24-19.29.24:472][422]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.03.24-19.29.24:473][422]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.03.24-19.29.24:474][422]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.03.24-19.29.24:475][422]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.03.24-19.29.24:476][422]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.03.24-19.29.24:477][422]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.03.24-19.29.24:478][422]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.03.24-19.29.24:479][422]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.03.24-19.29.24:479][422]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.03.24-19.29.24:480][422]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.24-19.29.24:481][422]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.24-19.29.24:482][422]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.24-19.29.24:483][422]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.24-19.29.24:484][422]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.03.24-19.29.24:484][422]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.03.24-19.29.24:485][422]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.24-19.29.24:488][422]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.24-19.29.24:492][422]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.24-19.29.24:493][422]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.24-19.29.24:494][422]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.24-19.29.24:494][422]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.24-19.29.24:495][422]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.03.24-19.29.24:496][422]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.03.24-19.29.24:497][422]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.24-19.29.24:498][422]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.24-19.29.24:499][422]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.24-19.29.24:500][422]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.24-19.29.24:501][422]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.03.24-19.29.24:501][422]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.03.24-19.29.24:503][422]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.24-19.29.24:553][422]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.24-19.29.24:639][422]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.24-19.29.24:928][422]LogStaticLightingSystem: Illumination: 34.0 sec (918 ms encoding lightmaps)
+[2016.03.24-19.29.24:928][422]LogStaticLightingSystem: Lightmap texture memory:  7.4 MB (6.1 MB streaming, 1.3 MB non-streaming), 70 textures
+[2016.03.24-19.29.24:928][422]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2016.03.24-19.29.25:013][423]Cmd: UpdateLandscapeEditorData
+[2016.03.24-19.29.25:014][423]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.24-19.29.25:014][423]MapCheck: New page: FirstPersonExampleMap - Mar 24, 2016, 11:29:25 AM
+[2016.03.24-19.29.25:061][423]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.346ms to complete.
+[2016.03.24-19.29.47:149][601]LogSavePackage: Save=453.023346ms
+[2016.03.24-19.29.47:149][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/FirstPersonExampleMap45A076FA45ECBE6B59E1FFACA47A59AD.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.24-19.29.47:154][601]LogSavePackage: Total save time: 459.521133ms
+[2016.03.24-19.29.47:154][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.24-19.29.47:174][601]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.538
+[2016.03.24-19.29.47:186][601]LogSavePackage: Save=4.016919ms
+[2016.03.24-19.29.47:186][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/oildrum_col_Mat2D1A1D6F45DB7C4BC0E18EBC743E395C.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum_col_Mat.uasset'
+[2016.03.24-19.29.47:187][601]LogSavePackage: Total save time: 9.764004ms
+[2016.03.24-19.29.47:187][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Barrel/oildrum_col_Mat.uasset
+[2016.03.24-19.29.47:200][601]LogSavePackage: Save=3.873521ms
+[2016.03.24-19.29.47:200][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo01FD49636543E39A85B4904FA6019C4E2E.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01.uasset'
+[2016.03.24-19.29.47:202][601]LogSavePackage: Total save time: 9.851687ms
+[2016.03.24-19.29.47:202][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo01.uasset
+[2016.03.24-19.29.47:214][601]LogSavePackage: Save=3.822789ms
+[2016.03.24-19.29.47:214][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Cargo02E0BD9AFB44334F44BA867484BF26506A.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02.uasset'
+[2016.03.24-19.29.47:216][601]LogSavePackage: Total save time: 9.768989ms
+[2016.03.24-19.29.47:216][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/CargoContainer/Cargo02.uasset
+[2016.03.24-19.29.47:229][601]LogSavePackage: Save=3.818097ms
+[2016.03.24-19.29.47:229][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/OfficeChair_colo_MatC0677065460632F3C213A48B8D8F03CB.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_colo_Mat.uasset'
+[2016.03.24-19.29.47:231][601]LogSavePackage: Total save time: 9.836730ms
+[2016.03.24-19.29.47:231][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Chair/OfficeChair_colo_Mat.uasset
+[2016.03.24-19.29.47:244][601]LogSavePackage: Save=4.291693ms
+[2016.03.24-19.29.47:244][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/DeskWood_Dirty_MatBFF80BF54860E03A58BFF08EAD36F252.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Mat.uasset'
+[2016.03.24-19.29.47:245][601]LogSavePackage: Total save time: 10.298304ms
+[2016.03.24-19.29.47:245][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Desk/DeskWood_Dirty_Mat.uasset
+[2016.03.24-19.29.47:259][601]LogSavePackage: Save=3.877919ms
+[2016.03.24-19.29.47:259][601]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Rust_Metal_Mat4BDDEE3A4DB6D3DDF94749BC28528242.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Rust_Metal_Mat.uasset'
+[2016.03.24-19.29.47:261][601]LogSavePackage: Total save time: 10.346103ms
+[2016.03.24-19.29.47:261][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/TargetAssets/Ladder/Rust_Metal_Mat.uasset
+[2016.03.24-19.29.47:322][601]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.24-19.29.47:504][602]Cmd: QUIT_EDITOR
+[2016.03.24-19.29.47:854][602]LogExit: Preparing to exit.
+[2016.03.24-19.29.48:925][602]LogExit: Editor shut down
+[2016.03.24-19.29.48:925][602]LogExit: Transaction tracking system shut down
+[2016.03.24-19.29.48:927][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002D3FC34A7A0
+[2016.03.24-19.29.48:927][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002D3FE3A34C0
+[2016.03.24-19.29.48:928][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002D3AC821580
+[2016.03.24-19.29.48:928][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002D38C42E660
+[2016.03.24-19.29.49:042][602]LogExit: Object subsystem successfully closed.
+[2016.03.24-19.29.49:052][602]LogD3D11RHI: Shutdown
+[2016.03.24-19.29.49:052][602]LogD3D11RHI: CleanupD3DDevice
+[2016.03.24-19.29.49:101][602]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.24-19.29.49:111][602]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.03.24-19.29.49:111][602]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.24-19.29.49:111][602]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.24-19.29.49:111][602]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.24-19.29.49:111][602]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.24-19.29.49:111][602]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.24-19.29.49:112][602]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.24-19.29.49:735][602]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.24-19.29.49:736][602]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.24-19.29.49:979][602]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.24-19.29.50:119][602]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.24-19.29.50:120][602]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.24-19.29.50:121][602]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.24-19.29.50:315][602]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.24-19.29.50:316][602]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.24-19.29.50:316][602]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.24-19.29.50:416][602]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.24-19.29.50:416][602]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.24-19.29.50:416][602]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.24-19.29.50:418][602]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.24-19.29.50:419][602]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.24-19.29.50:421][602]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.24-19.29.50:512][602]LogDerivedDataCache: Shutdown
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.24-19.29.50:512][602]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.24-19.29.51:513][602]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.24-19.29.51:514][602]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.24-19.29.51:515][602]LogExit: Exiting.
+[2016.03.24-19.29.51:527][602]Log file closed, 03/24/16 15:29:51
