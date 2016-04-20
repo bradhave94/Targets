@@ -1,0 +1,1013 @@
+﻿[2016.04.20-15.10.38:876][  0]Log file open, 04/20/16 11:10:38
+[2016.04.20-15.10.38:876][  0]LogInit:Display: Running engine for game: Targets
+[2016.04.20-15.10.38:876][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.20-15.10.38:876][  0]LogInit:Display: RandInit(1672263499) SRandInit(1672263500).
+[2016.04.20-15.10.38:876][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.20-15.10.38:876][  0]LogStats: Stats thread started at 0.065697
+[2016.04.20-15.10.38:876][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.20-15.10.38:876][  0]LogInit: API Version: 2758231
+[2016.04.20-15.10.38:876][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.20-15.10.38:876][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.20-15.10.38:876][  0]LogInit: Build Configuration: Development
+[2016.04.20-15.10.38:876][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.20-15.10.38:876][  0]LogInit: Command line:  
+[2016.04.20-15.10.38:876][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.20-15.10.38:876][  0]LogInit: Rocket: 1
+[2016.04.20-15.10.38:891][  0]LogInit: Using libcurl 7.41.0
+[2016.04.20-15.10.38:891][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.20-15.10.38:891][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.20-15.10.38:891][  0]LogInit:  - other features:
+[2016.04.20-15.10.38:891][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.20-15.10.38:891][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.20-15.10.38:891][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.20-15.10.38:891][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.20-15.10.38:891][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.20-15.10.38:892][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.20-15.10.38:892][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.20-15.10.38:892][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.20-15.10.38:892][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.20-15.10.38:892][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.20-15.10.38:918][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.20-15.10.38:923][  0]LogInit: Object subsystem initialized
+[2016.04.20-15.10.38:924][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.20-15.10.38:924][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.20-15.10.38:942][  0]LogInit: Computer: BRADDLESTATION
+[2016.04.20-15.10.38:942][  0]LogInit: User: Administrator
+[2016.04.20-15.10.38:942][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.20-15.10.38:942][  0]LogInit: High frequency timer resolution =3.410068 MHz
+[2016.04.20-15.10.38:942][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.04.20-15.10.38:942][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.20-15.10.38:942][  0]LogMemory: Process Physical Memory: 56.17 MB used, 56.17 MB peak
+[2016.04.20-15.10.38:942][  0]LogMemory: Process Virtual Memory: 58.70 MB used, 58.70 MB peak
+[2016.04.20-15.10.38:942][  0]LogMemory: Physical Memory: 3982.41 MB used, 8149.47 MB total
+[2016.04.20-15.10.38:942][  0]LogMemory: Virtual Memory: 384.42 MB used, 134217728.00 MB total
+[2016.04.20-15.10.39:101][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.20-15.10.39:523][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.04.20-15.10.39:523][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 2 output[s]
+[2016.04.20-15.10.39:524][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.20-15.10.39:524][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 0 output[s]
+[2016.04.20-15.10.39:524][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.20-15.10.39:527][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.20-15.10.39:527][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.20-15.10.39:538][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.20-15.10.39:552][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Intermediate/Shaders/WorkingDirectory/11344/).
+[2016.04.20-15.10.39:553][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADMINI~1.BRA/AppData/Local/Temp/UnrealShaderWorkingDir/48C67B6547EC413A76CEC688B98C14D3/'.
+[2016.04.20-15.10.39:553][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.20-15.10.41:308][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.20-15.10.41:311][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.20-15.10.41:314][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.20-15.10.41:318][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.20-15.10.41:321][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.20-15.10.41:326][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.20-15.10.41:328][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.20-15.10.41:331][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.20-15.10.41:334][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.20-15.10.41:337][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.20-15.10.41:340][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.20-15.10.41:345][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.20-15.10.41:345][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.20-15.10.41:346][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.20-15.10.41:383][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.20-15.10.41:386][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.20-15.10.41:388][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.20-15.10.41:393][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.20-15.10.41:393][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.20-15.10.41:632][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.20-15.10.41:788][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.20-15.10.41:789][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.20-15.10.41:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.20-15.10.41:789][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.20-15.10.41:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.20-15.10.41:789][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.20-15.10.41:852][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.20-15.10.41:864][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.20-15.10.44:295][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.20-15.10.44:298][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.20-15.10.44:417][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.20-15.10.44:417][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.20-15.10.44:825][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.20-15.10.46:431][  0]LogAssetRegistry: FAssetRegistry took 0.0134 seconds to start up
+[2016.04.20-15.10.46:442][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.20-15.10.46:816][  0]SourceControl: Info Source control is disabled
+[2016.04.20-15.10.46:902][  0]SourceControl: Info Source control is disabled
+[2016.04.20-15.10.46:912][  0]SourceControl: Info Source control is disabled
+[2016.04.20-15.10.46:920][  0]SourceControl: Info Source control is disabled
+[2016.04.20-15.10.47:157][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.04.20-15.10.47:157][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
+[2016.04.20-15.10.47:223][  0]LogEngine: Initializing Engine...
+[2016.04.20-15.10.47:226][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.20-15.10.47:236][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.20-15.10.47:416][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.20-15.10.47:426][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.10.47:439][  0]LogInit: FAudioDevice initialized.
+[2016.04.20-15.10.47:459][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Administrator.BRADDLESTATION/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.20-15.10.47:466][  0]LogInit: Texture streaming: Enabled
+[2016.04.20-15.10.47:472][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.20-15.10.47:473][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.20-15.10.47:473][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76b4705d46b946ab40c494a42b3908b2|721e803206f740099b1323b4713bda8d|b988256f-2c58-43b5-bb54-1b0d265f5686
+[2016.04.20-15.10.47:473][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.20-15.10.47:482][  0]LogInit: Transaction tracking system initialized
+[2016.04.20-15.10.47:510][  0]BlueprintLog: New page: Editor Load
+[2016.04.20-15.10.47:620][  0]LocalizationService: Info Localization service is disabled
+[2016.04.20-15.10.47:703][  0]LogConsoleResponse:Display: 
+[2016.04.20-15.10.47:823][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.20-15.10.47:899][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/' took 0.02s
+[2016.04.20-15.10.47:899][  0]SourceControl: Info Source control is disabled
+[2016.04.20-15.10.47:899][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.20-15.10.47:899][  0]LightingResults: New page: Lighting Build
+[2016.04.20-15.10.47:901][  0]MapCheck: New page: Map Check
+[2016.04.20-15.10.47:901][  0]LightingResults: New page: Lighting Build
+[2016.04.20-15.10.47:912][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286A2502020
+[2016.04.20-15.10.48:044][  0]LogLinker:Warning: Asset '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.20-15.10.49:161][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.10.49:573][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.20-15.10.49:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.20-15.10.49:621][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.597ms to complete.
+[2016.04.20-15.10.49:621][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.722
+[2016.04.20-15.10.49:771][  0]LogCollectionManager: Loaded 0 collections in 0.001164 seconds
+[2016.04.20-15.10.49:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Collections/' took 0.01s
+[2016.04.20-15.10.49:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/Developers/Administrator/Collections/' took 0.01s
+[2016.04.20-15.10.49:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/Collections/' took 0.01s
+[2016.04.20-15.10.49:822][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.04.20-15.10.49:829][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1908 classes and 344 folders.
+[2016.04.20-15.10.49:837][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.20-15.10.50:037][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.20-15.10.50:045][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.20-15.10.50:069][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.20-15.10.50:079][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.20-15.10.50:103][  0]LogLoad: Full Startup: 11.64 seconds (BP compile: 0.17 seconds)
+[2016.04.20-15.10.50:114][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.20-15.10.50:190][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.20-15.10.50:308][  0]LogRenderer: Reallocating scene render targets to support 1212x572 (Frame:2).
+[2016.04.20-15.10.50:356][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.20-15.10.51:636][108]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.04.20-15.10.52:582][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.10.52:582][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.10.52:601][203]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:10:52 AM)
+[2016.04.20-15.10.52:601][203]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.10.52:657][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055052s)
+[2016.04.20-15.10.52:657][203]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.10.52:657][203]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2016.04.20-15.10.52:657][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055970s)
+[2016.04.20-15.10.52:657][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.10.52:657][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.10.52:717][203]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.10.52:724][203]LogInit: FAudioDevice initialized.
+[2016.04.20-15.10.52:770][203]LogLinker:Warning: Asset '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.20-15.10.52:787][203]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.10.52:805][203]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.10.52
+[2016.04.20-15.10.52:805][203]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.10.52:806][203]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.10.52:808][203]LogWorld: Bringing up level for play took: 0.019288
+[2016.04.20-15.10.52:811][203]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.409
+[2016.04.20-15.10.52:812][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.10.53:576][288]LogAssetRegistry: Asset discovery search completed in 7.1574 seconds
+[2016.04.20-15.10.53:577][288]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.20-15.10.53:577][288]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000215 seconds (updated 0 objects)
+[2016.04.20-15.10.59:398][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.10.59:455][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.10.59:470][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286B7F939C0
+[2016.04.20-15.15.43:043][315]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.20-15.15.43:388][315]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.04.20-15.15.43:765][316]LogRenderer: Reallocating scene render targets to support 1212x596 (Frame:3954).
+[2016.04.20-15.15.55:156][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.15.55:156][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.15.55:178][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028694474A40
+[2016.04.20-15.15.55:183][581]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/MyGamestate.MyGamestate:UserConstructionScript.K2Node_FunctionEntry_128' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.20-15.15.55:183][581]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/MyGamestate.SKEL_MyGamestate_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.20-15.15.55:183][581]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/MyGamestate.MyGamestate_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.20-15.15.55:183][581]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/MyGamestate.MyGamestate:EventGraph.K2Node_Event_27' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.20-15.15.55:183][581]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/MyGamestate.MyGamestate:EventGraph.K2Node_Event_28' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.20-15.15.55:238][581]LogSavePackage: Save=11.976301ms
+[2016.04.20-15.15.55:238][581]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/MyGamestateB59A3B16494A5ACA47248DB4800B4647.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/MyGamestate.uasset'
+[2016.04.20-15.15.55:241][581]LogSavePackage: Total save time: 16.679138ms
+[2016.04.20-15.15.55:241][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/MyGamestate.uasset
+[2016.04.20-15.16.18:509][127]LogActor:Warning: GameNetworkManager /Engine/Transient.World_5:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.16.23:695][694]LogActor:Warning: GameNetworkManager /Engine/Transient.World_6:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.16.25:051][850]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.20-15.17.27:452][315]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.17.27:489][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.17.27:489][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.17.27:511][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286E93C4CC0
+[2016.04.20-15.17.27:511][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286E9322520
+[2016.04.20-15.17.27:513][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002869DC81BC0
+[2016.04.20-15.17.27:518][315]BlueprintEditorCompileResults: Info [0409.06] Compile of MyGamestate successful! [in 66 ms]
+[2016.04.20-15.19.15:276][482]LogWindowsTextInputMethodSystem:Error: Activating a context failed while setting focus on a TSF document manager. The parameter is incorrect. (0x80070057)
+[2016.04.20-15.19.39:109][287]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.19.39:148][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.19.39:148][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.19.39:174][287]BlueprintEditorCompileResults: Info [0540.71] Compile of MyGamestate successful! [in 65 ms]
+[2016.04.20-15.21.59:853][176]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.21.59:893][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.21.59:893][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.21.59:918][176]BlueprintEditorCompileResults: Info [0681.45] Compile of MyGamestate successful! [in 64 ms]
+[2016.04.20-15.22.36:835][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.22.36:835][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.22.36:859][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.024
+[2016.04.20-15.22.36:867][579]LogSavePackage: Save=2.563585ms
+[2016.04.20-15.22.36:867][579]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/NewBlueprint_Auto1143EB24B462FB5889BACF1B61EC1373A.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Blueprints/NewBlueprint_Auto1.uasset'
+[2016.04.20-15.22.36:867][579]LogSavePackage: Total save time: 3.623977ms
+[2016.04.20-15.22.36:867][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Blueprints/NewBlueprint_Auto1.uasset
+[2016.04.20-15.22.36:871][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode] ([1] browsable assets)...
+[2016.04.20-15.22.36:871][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode]
+[2016.04.20-15.22.36:888][579]LogSavePackage: Save=7.139447ms
+[2016.04.20-15.22.36:888][579]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/FirstPersonGameMode_Auto1DE0282054C49E1801CD4F2A2B54C4AA6.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto1.uasset'
+[2016.04.20-15.22.36:889][579]LogSavePackage: Total save time: 16.182084ms
+[2016.04.20-15.22.36:889][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto1.uasset
+[2016.04.20-15.22.36:893][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/MyGamestate] ([1] browsable assets)...
+[2016.04.20-15.22.36:893][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/MyGamestate]
+[2016.04.20-15.22.36:919][579]LogSavePackage: Save=19.526003ms
+[2016.04.20-15.22.36:919][579]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/MyGamestate_Auto188EC041B43783CDDFC2ACCA6E2CB20A7.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Blueprints/MyGamestate_Auto1.uasset'
+[2016.04.20-15.22.36:920][579]LogSavePackage: Total save time: 26.073381ms
+[2016.04.20-15.22.36:920][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Blueprints/MyGamestate_Auto1.uasset
+[2016.04.20-15.22.36:920][579]LogFileHelpers: Auto-saving content packages took 0.060
+[2016.04.20-15.23.20:550][460]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.23.20:589][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.23.20:589][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.23.20:614][460]BlueprintEditorCompileResults: Info [0762.15] Compile of MyGamestate successful! [in 63 ms]
+[2016.04.20-15.23.34:391][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.23.34:391][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.23.34:416][513]LogMetaData: Removing '/Game/MyGamestate.MyGamestate_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/MyGamestate.PackageMetaData'
+[2016.04.20-15.23.34:416][513]LogMetaData: Removing '/Game/MyGamestate.SKEL_MyGamestate_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/MyGamestate.PackageMetaData'
+[2016.04.20-15.23.34:416][513]LogMetaData: Removing '/Game/MyGamestate.MyGamestate:UserConstructionScript.K2Node_FunctionEntry_128' ref from Metadata '/Game/FirstPersonBP/Blueprints/MyGamestate.PackageMetaData'
+[2016.04.20-15.23.34:416][513]LogMetaData: Removing '/Game/MyGamestate.MyGamestate:EventGraph.K2Node_Event_27' ref from Metadata '/Game/FirstPersonBP/Blueprints/MyGamestate.PackageMetaData'
+[2016.04.20-15.23.34:416][513]LogMetaData: Removing '/Game/MyGamestate.MyGamestate:EventGraph.K2Node_Event_28' ref from Metadata '/Game/FirstPersonBP/Blueprints/MyGamestate.PackageMetaData'
+[2016.04.20-15.23.34:443][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGamestate" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/MyGamestate.uasset" SILENT=true
+[2016.04.20-15.23.34:467][513]LogSavePackage: Save=22.601015ms
+[2016.04.20-15.23.34:467][513]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/MyGamestate1A79A8C44BE43FFF0EB10EA8C5FDFCDD.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/MyGamestate.uasset'
+[2016.04.20-15.23.34:468][513]LogSavePackage: Total save time: 24.485141ms
+[2016.04.20-15.23.34:468][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/MyGamestate.uasset
+[2016.04.20-15.23.34:599][513]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286E8DB7100
+[2016.04.20-15.27.10:899][200]BlueprintLog: New page: Compile HUD
+[2016.04.20-15.27.10:979][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.27.10:979][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.27.11:018][200]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.04.20-15.27.11:018][200]BlueprintEditorCompileResults: Info [0992.56] Compile of HUD successful! [in 118 ms]
+[2016.04.20-15.27.12:212][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/HUD.uasset" SILENT=true
+[2016.04.20-15.27.12:255][335]LogSavePackage: Save=32.353020ms
+[2016.04.20-15.27.12:255][335]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/HUD5B0970AE4D9898B391A7AF917613FD75.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/HUD.uasset'
+[2016.04.20-15.27.12:258][335]LogSavePackage: Total save time: 43.549571ms
+[2016.04.20-15.27.12:258][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/HUD.uasset
+[2016.04.20-15.27.12:273][335]LogSavePackage: Save=2.572383ms
+[2016.04.20-15.27.12:273][335]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/NewBlueprintEF755D594C4C1FBFD1D66B9F73EA8F49.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/NewBlueprint.uasset'
+[2016.04.20-15.27.12:276][335]LogSavePackage: Total save time: 6.103981ms
+[2016.04.20-15.27.12:276][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/NewBlueprint.uasset
+[2016.04.20-15.27.12:295][335]LogSavePackage: Save=7.820959ms
+[2016.04.20-15.27.12:295][335]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/FirstPersonGameModeA8C5F4C647A04623C68B8AA86DB03584.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2016.04.20-15.27.12:299][335]LogSavePackage: Total save time: 14.610559ms
+[2016.04.20-15.27.12:299][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2016.04.20-15.27.51:534][534]LogActor:Warning: GameNetworkManager /Engine/Transient.World_12:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.27.53:437][719]LogActor:Warning: GameNetworkManager /Engine/Transient.World_13:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.29.25:442][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.20-15.29.27:961][203]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Gameplay/Framework/GameState/index.html?utm_source=editor&utm_medium=docs&utm_campaign=cb_docs
+[2016.04.20-15.30.03:527][303]LogActor:Warning: GameNetworkManager /Engine/Transient.World_16:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.30.57:258][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.30.57:258][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.30.57:258][121]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:30:57 AM)
+[2016.04.20-15.30.57:258][121]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.30.57:310][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051954s)
+[2016.04.20-15.30.57:311][121]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.30.57:312][121]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2016.04.20-15.30.57:312][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.053575s)
+[2016.04.20-15.30.57:312][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.30.57:312][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.30.57:337][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000287105F98A0
+[2016.04.20-15.30.57:338][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286D7F8A3E0
+[2016.04.20-15.30.57:339][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028721369EE0
+[2016.04.20-15.30.57:347][121]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.30.57:354][121]LogInit: FAudioDevice initialized.
+[2016.04.20-15.30.57:389][121]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.30.57:403][121]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.30.57
+[2016.04.20-15.30.57:403][121]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.30.57:404][121]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.30.57:406][121]LogWorld: Bringing up level for play took: 0.016173
+[2016.04.20-15.30.57:408][121]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.188
+[2016.04.20-15.30.57:412][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.01:494][594]LogBlueprintUserMessages: [MyGamestate_C_7] Hello
+[2016.04.20-15.31.09:286][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.09:332][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.09:357][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000287392FEF20
+[2016.04.20-15.31.18:218][200]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.31.18:266][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.31.18:266][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.31.18:294][200]BlueprintEditorCompileResults: Info [1239.83] Compile of MyGamestate successful! [in 76 ms]
+[2016.04.20-15.31.18:772][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.18:772][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.31.18:772][240]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:31:18 AM)
+[2016.04.20-15.31.18:772][240]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.31.18:818][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045692s)
+[2016.04.20-15.31.18:818][240]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.31.18:818][240]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2016.04.20-15.31.18:819][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.046658s)
+[2016.04.20-15.31.18:850][240]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.31.18:857][240]LogInit: FAudioDevice initialized.
+[2016.04.20-15.31.18:890][240]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.31.18:905][240]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.31.18
+[2016.04.20-15.31.18:905][240]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.31.18:906][240]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.31.18:908][240]LogWorld: Bringing up level for play took: 0.016745
+[2016.04.20-15.31.18:909][240]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.311
+[2016.04.20-15.31.18:909][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.26:956][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.26:993][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.27:019][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002869244EB60
+[2016.04.20-15.31.32:410][643]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.31.32:454][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.31.32:454][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.31.32:482][643]BlueprintEditorCompileResults: Info [1254.02] Compile of MyGamestate successful! [in 71 ms]
+[2016.04.20-15.31.34:394][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.34:394][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.31.34:394][840]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:31:34 AM)
+[2016.04.20-15.31.34:395][840]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.31.34:442][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047823s)
+[2016.04.20-15.31.34:443][840]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.31.34:443][840]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2016.04.20-15.31.34:443][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048861s)
+[2016.04.20-15.31.34:476][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.31.34:483][840]LogInit: FAudioDevice initialized.
+[2016.04.20-15.31.34:517][840]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.31.34:532][840]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.31.34
+[2016.04.20-15.31.34:532][840]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.31.34:533][840]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.31.34:535][840]LogWorld: Bringing up level for play took: 0.016680
+[2016.04.20-15.31.34:536][840]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.684
+[2016.04.20-15.31.34:536][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.40:124][507]LogBlueprintUserMessages: [MyGamestate_C_8] Hello
+[2016.04.20-15.31.44:637][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.44:676][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.31.44:701][ 48]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286A2AB2AC0
+[2016.04.20-15.32.34:088][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.34:088][807]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.20-15.32.34:091][807]LogPlayLevel: [PlayLevel] Compiling MyGamestate before play...
+[2016.04.20-15.32.34:137][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (2 blueprints)
+[2016.04.20-15.32.34:140][807]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2016.04.20-15.32.34:187][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (3 blueprints)
+[2016.04.20-15.32.34:188][807]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2016.04.20-15.32.34:237][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 148 ms (4 blueprints)
+[2016.04.20-15.32.34:239][807]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2016.04.20-15.32.34:285][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 197 ms (4 blueprints)
+[2016.04.20-15.32.34:286][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.32.34:286][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.32.34:315][807]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:32:34 AM)
+[2016.04.20-15.32.34:315][807]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.32.34:366][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051439s)
+[2016.04.20-15.32.34:367][807]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.32.34:367][807]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2016.04.20-15.32.34:367][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.052551s)
+[2016.04.20-15.32.34:400][807]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.32.34:407][807]LogInit: FAudioDevice initialized.
+[2016.04.20-15.32.34:441][807]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.32.34:456][807]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.32.34
+[2016.04.20-15.32.34:456][807]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.32.34:456][807]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.32.34:458][807]LogWorld: Bringing up level for play took: 0.016426
+[2016.04.20-15.32.34:460][807]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.24
+[2016.04.20-15.32.34:460][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.41:408][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.41:450][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.41:504][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002871BA24A40
+[2016.04.20-15.32.43:035][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.43:035][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.32.43:035][781]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:32:43 AM)
+[2016.04.20-15.32.43:035][781]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.32.43:086][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049859s)
+[2016.04.20-15.32.43:086][781]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.32.43:087][781]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2016.04.20-15.32.43:087][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051080s)
+[2016.04.20-15.32.43:118][781]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.32.43:125][781]LogInit: FAudioDevice initialized.
+[2016.04.20-15.32.43:158][781]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.32.43:174][781]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.32.43
+[2016.04.20-15.32.43:174][781]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.32.43:174][781]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.32.43:176][781]LogWorld: Bringing up level for play took: 0.016576
+[2016.04.20-15.32.43:178][781]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.042
+[2016.04.20-15.32.43:182][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.59:072][371]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.59:115][371]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.32.59:116][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.32.59:116][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.20-15.32.59:143][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000287066A4A40
+[2016.04.20-15.33.09:485][428]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.20-15.33.11:077][598]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.20-15.33.55:444][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2775 or K2Node_CallFunction /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2775
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2775.EdGraphPin_9402) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CreateWidget_4.EdGraphPin_28957).  Import failed...
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2775.EdGraphPin_9402''
+[2016.04.20-15.33.55:444][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2775 or K2Node_CallFunction /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2775
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2775.EdGraphPin_9400) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CreateWidget_4.EdGraphPin_28955).  Import failed...
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2775.EdGraphPin_9400''
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_Event_208.EdGraphPin_9365) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CreateWidget_4.EdGraphPin_28954).  Import failed...
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_208.EdGraphPin_9365''
+[2016.04.20-15.33.55:444][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2778 or K2Node_CallFunction /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2778
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2778.EdGraphPin_9436) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2775.EdGraphPin_9401).  Import failed...
+[2016.04.20-15.33.55:444][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2778.EdGraphPin_9436''
+[2016.04.20-15.33.55:445][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2778 or K2Node_CallFunction /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2778
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2778.EdGraphPin_9438) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2776.EdGraphPin_9415).  Import failed...
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2778.EdGraphPin_9438''
+[2016.04.20-15.33.55:445][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2778 or K2Node_CallFunction /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2778
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2778.EdGraphPin_9439) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2777.EdGraphPin_9427).  Import failed...
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2778.EdGraphPin_9439''
+[2016.04.20-15.33.55:445][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_VariableSet_703 or K2Node_VariableSet /Game/MyGamestate.MyGamestate:EventGraph.K2Node_VariableSet_703
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_VariableSet_703.EdGraphPin_9452) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2777.EdGraphPin_9427).  Import failed...
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_703.EdGraphPin_9452''
+[2016.04.20-15.33.55:445][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_VariableSet_703 or K2Node_VariableSet /Game/MyGamestate.MyGamestate:EventGraph.K2Node_VariableSet_703
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_VariableSet_703.EdGraphPin_9448) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2778.EdGraphPin_9437).  Import failed...
+[2016.04.20-15.33.55:445][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_703.EdGraphPin_9448''
+[2016.04.20-15.33.55:446][735]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2779 or K2Node_CallFunction /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2779
+[2016.04.20-15.33.55:446][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_CallFunction_2779.EdGraphPin_9463) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_VariableSet_703.EdGraphPin_9449).  Import failed...
+[2016.04.20-15.33.55:446][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2779.EdGraphPin_9463''
+[2016.04.20-15.33.55:446][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap.EventGraph.K2Node_VariableSet_83.EdGraphPin_9153) from referencer (EdGraphPin /Game/MyGamestate.MyGamestate:EventGraph.K2Node_CallFunction_2779.EdGraphPin_9464).  Import failed...
+[2016.04.20-15.33.55:446][735]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_83.EdGraphPin_9153''
+[2016.04.20-15.34.00:171][175]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.20-15.34.25:094][566]BlueprintLog: New page: Compile MyGamestate
+[2016.04.20-15.34.25:174][566]BlueprintEditorCompileResults: Info [1426.71] Compile of MyGamestate successful! [in 79 ms]
+[2016.04.20-15.34.26:793][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.34.26:793][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.34.26:794][723]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:34:26 AM)
+[2016.04.20-15.34.26:794][723]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.34.26:848][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054946s)
+[2016.04.20-15.34.26:849][723]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.34.26:849][723]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2016.04.20-15.34.26:849][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055991s)
+[2016.04.20-15.34.26:885][723]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.34.26:893][723]LogInit: FAudioDevice initialized.
+[2016.04.20-15.34.26:925][723]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.34.26:940][723]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.34.26
+[2016.04.20-15.34.26:940][723]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.34.26:940][723]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.34.26:942][723]LogWorld: Bringing up level for play took: 0.016695
+[2016.04.20-15.34.26:943][723]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.277
+[2016.04.20-15.34.26:944][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.34.35:773][771]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve FirstPersonExampleMap.umap.
+[2016.04.20-15.34.35:824][771]LogPackageName: SearchForPackageOnDisk took   0.050s to resolve FirstPersonExampleMap.umap.
+[2016.04.20-15.34.35:824][771]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.04.20-15.34.35:824][771]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.04.20-15.34.35:853][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002871B09A340
+[2016.04.20-15.34.35:859][771]Cmd: MEM
+[2016.04.20-15.34.35:884][771]LogMemory: Platform Memory Stats for Windows
+[2016.04.20-15.34.35:884][771]LogMemory: Process Physical Memory: 1942.60 MB used, 1951.37 MB peak
+[2016.04.20-15.34.35:884][771]LogMemory: Process Virtual Memory: 3003.68 MB used, 3012.50 MB peak
+[2016.04.20-15.34.35:884][771]LogMemory: Physical Memory: 5397.86 MB used, 8149.47 MB total
+[2016.04.20-15.34.35:884][771]LogMemory: Virtual Memory: 3812.46 MB used, 134217728.00 MB total
+[2016.04.20-15.34.35:884][771]LogMemory: 
+[2016.04.20-15.34.35:884][771]Allocator Stats for TBB: (not implemented)
+[2016.04.20-15.34.35:884][771]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.34.35:929][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044775s)
+[2016.04.20-15.34.35:929][771]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.34.35:929][771]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2016.04.20-15.34.35:930][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045772s)
+[2016.04.20-15.34.35:930][771]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.34.35:946][771]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.34.35
+[2016.04.20-15.34.35:946][771]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.34.35:946][771]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.34.35:949][771]LogWorld: Bringing up level for play took: 0.017650
+[2016.04.20-15.34.47:801][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.34.47:839][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.34.47:894][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002871ADF93A0
+[2016.04.20-15.39.06:906][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286924F7A60
+[2016.04.20-15.39.06:936][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGamestate" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/MyGamestate.uasset" SILENT=true
+[2016.04.20-15.39.06:974][522]LogSavePackage: Save=28.031406ms
+[2016.04.20-15.39.06:974][522]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/MyGamestateFDE943764C6735EF58DDB68EAD20EF85.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/MyGamestate.uasset'
+[2016.04.20-15.39.06:976][522]LogSavePackage: Total save time: 38.588382ms
+[2016.04.20-15.39.06:976][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/MyGamestate.uasset
+[2016.04.20-15.39.06:983][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Menus/EndMenu" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset" SILENT=true
+[2016.04.20-15.39.07:011][522]LogSavePackage: Save=20.445633ms
+[2016.04.20-15.39.07:011][522]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/EndMenu0796DD3F469FFF8DA545819C2CDCC5E7.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset'
+[2016.04.20-15.39.07:013][522]LogSavePackage: Total save time: 28.871566ms
+[2016.04.20-15.39.07:013][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset
+[2016.04.20-15.39.07:594][555]BlueprintLog: New page: Compile EndMenu
+[2016.04.20-15.39.07:693][555]BlueprintEditorCompileResults: Info [1709.23] Compile of EndMenu successful! [in 98 ms]
+[2016.04.20-15.39.11:177][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.39.11:177][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.39.11:177][851]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:39:11 AM)
+[2016.04.20-15.39.11:177][851]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.39.11:231][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052885s)
+[2016.04.20-15.39.11:231][851]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.39.11:232][851]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2016.04.20-15.39.11:232][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.054109s)
+[2016.04.20-15.39.11:266][851]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.39.11:273][851]LogInit: FAudioDevice initialized.
+[2016.04.20-15.39.11:306][851]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.39.11:322][851]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.39.11
+[2016.04.20-15.39.11:322][851]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.39.11:322][851]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.39.11:324][851]LogWorld: Bringing up level for play took: 0.017213
+[2016.04.20-15.39.11:325][851]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.105
+[2016.04.20-15.39.11:326][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.39.17:271][559]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:279][560]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:287][561]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:294][562]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:303][563]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:312][564]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:320][565]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:328][566]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:337][567]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:345][568]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:354][569]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:362][570]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:370][571]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:378][572]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:387][573]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:395][574]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.17:404][575]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.EndMenu_C_1
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetText_0:003D
+[2016.04.20-15.39.25:374][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.39.25:418][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.39.25:446][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002871F44ADE0
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_FunctionEntry_2235.EdGraphPin_3177) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_FunctionResult_3.EdGraphPin_3163).  Import failed...
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_2235.EdGraphPin_3177''
+[2016.04.20-15.40.31:539][936]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_CallFunction_9327
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327.EdGraphPin_4939) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_FunctionResult_3.EdGraphPin_3164).  Import failed...
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9327.EdGraphPin_4939''
+[2016.04.20-15.40.31:539][936]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160 or K2Node_VariableGet /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_VariableGet_2160
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160.EdGraphPin_4929) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_VariableGet_2156.EdGraphPin_3222).  Import failed...
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2160.EdGraphPin_4929''
+[2016.04.20-15.40.31:539][936]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_CallFunction_9327
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327.EdGraphPin_4935) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetText_1.K2Node_VariableGet_2160.EdGraphPin_4928).  Import failed...
+[2016.04.20-15.40.31:539][936]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9327.EdGraphPin_4935''
+[2016.04.20-15.40.31:539][936]LogBlueprint:Warning: [EndMenu] CreatePinForVariable: 'My Character' variable not found. Base class was probably changed.
+[2016.04.20-15.41.01:079][926]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_FunctionEntry_2235.EdGraphPin_3177) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_FunctionResult_3.EdGraphPin_3163).  Import failed...
+[2016.04.20-15.41.01:079][926]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_2235.EdGraphPin_3177''
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:EdGraph_352.K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:EdGraph_347.K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EdGraph_353:K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327.EdGraphPin_4939) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_FunctionResult_3.EdGraphPin_3164).  Import failed...
+[2016.04.20-15.41.01:080][926]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9327.EdGraphPin_4939''
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160 or K2Node_VariableGet /Game/FirstPersonBP/Menus/EndMenu.EndMenu:EdGraph_352.K2Node_VariableGet_2160
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160 or K2Node_VariableGet /Game/FirstPersonBP/Menus/EndMenu.EndMenu:EdGraph_347.K2Node_VariableGet_2160
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160 or K2Node_VariableGet /Game/FirstPersonBP/Menus/EndMenu.EdGraph_353:K2Node_VariableGet_2160
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160 or K2Node_VariableGet /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_VariableGet_2160
+[2016.04.20-15.41.01:080][926]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_VariableGet_2160.EdGraphPin_4929) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_VariableGet_2156.EdGraphPin_3222).  Import failed...
+[2016.04.20-15.41.01:080][926]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2160.EdGraphPin_4929''
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:EdGraph_352.K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:EdGraph_347.K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EdGraph_353:K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327 or K2Node_CallFunction /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_CallFunction_9327
+[2016.04.20-15.41.01:080][926]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD.HUD:GetScore.K2Node_CallFunction_9327.EdGraphPin_4935) from referencer (EdGraphPin /Game/FirstPersonBP/Menus/EndMenu.EndMenu:GetScore.K2Node_VariableGet_2160.EdGraphPin_4928).  Import failed...
+[2016.04.20-15.41.01:080][926]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9327.EdGraphPin_4935''
+[2016.04.20-15.41.01:080][926]LogBlueprint:Warning: [EndMenu] CreatePinForVariable: 'My Character' variable not found. Base class was probably changed.
+[2016.04.20-15.41.07:270][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Menus/EndMenu" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset" SILENT=true
+[2016.04.20-15.41.07:300][374]LogSavePackage: Save=25.193047ms
+[2016.04.20-15.41.07:300][374]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/EndMenu4A8E01CF4D5241B3CC56BE8D43D9A7A2.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset'
+[2016.04.20-15.41.07:302][374]LogSavePackage: Total save time: 31.177383ms
+[2016.04.20-15.41.07:302][374]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset
+[2016.04.20-15.41.10:349][601]BlueprintLog: New page: Compile EndMenu
+[2016.04.20-15.41.10:355][601]LogBlueprint:Warning: [compiler EndMenu] Warning Could not find a variable named "My Character" in 'EndMenu_C'.
+Make sure 'EndMenu_C' has been compiled for  Get My Character 
+[2016.04.20-15.41.10:355][601]LogBlueprint:Error: [compiler EndMenu] Error The property associated with  My Character  could not be found
+[2016.04.20-15.41.10:469][601]LogBlueprint:Warning: [compiler EndMenu] Warning [1832.01] Compile of EndMenu failed. 1 Fatal Issue(s) 1 Warning(s) [in 119 ms]
+[2016.04.20-15.41.10:469][601]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "My Character" in 'EndMenu_C'.
+Make sure 'EndMenu_C' has been compiled for  Get My Character 
+[2016.04.20-15.41.10:469][601]BlueprintEditorCompileResults:Error: Error The property associated with  My Character  could not be found
+[2016.04.20-15.41.10:469][601]BlueprintEditorCompileResults:Warning: Warning [1832.01] Compile of EndMenu failed. 1 Fatal Issue(s) 1 Warning(s) [in 119 ms]
+[2016.04.20-15.41.20:015][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.41.20:015][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.41.49:718][318]BlueprintLog: New page: Compile EndMenu
+[2016.04.20-15.41.49:793][318]BlueprintEditorCompileResults: Info [1871.33] Compile of EndMenu successful! [in 75 ms]
+[2016.04.20-15.41.51:370][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Menus/EndMenu" FILE="../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset" SILENT=true
+[2016.04.20-15.41.51:393][465]LogSavePackage: Save=18.837454ms
+[2016.04.20-15.41.51:393][465]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/EndMenu2F8527A0482274DF721C43932B2633FB.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset'
+[2016.04.20-15.41.51:396][465]LogSavePackage: Total save time: 24.628837ms
+[2016.04.20-15.41.51:396][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Menus/EndMenu.uasset
+[2016.04.20-15.41.53:555][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.41.53:555][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.20-15.41.53:556][683]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:41:53 AM)
+[2016.04.20-15.41.53:556][683]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.41.53:607][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051627s)
+[2016.04.20-15.41.53:608][683]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.41.53:608][683]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2016.04.20-15.41.53:608][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.052547s)
+[2016.04.20-15.41.53:642][683]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.41.53:649][683]LogInit: FAudioDevice initialized.
+[2016.04.20-15.41.53:683][683]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.41.53:698][683]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.41.53
+[2016.04.20-15.41.53:698][683]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.41.53:698][683]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.41.53:701][683]LogWorld: Bringing up level for play took: 0.016626
+[2016.04.20-15.41.53:702][683]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.482
+[2016.04.20-15.41.53:702][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.41.59:568][382]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:575][383]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:583][384]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:592][385]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:600][386]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:608][387]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:616][388]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:624][389]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:633][390]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:641][391]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:650][392]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:658][393]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:666][394]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:675][395]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:683][396]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:691][397]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.41.59:700][398]LogScript:Warning: Accessed None 'MyCharector'
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:003D
+[2016.04.20-15.42.06:690][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.42.06:739][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.42.06:769][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002875F069800
+[2016.04.20-15.42.16:329][185]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.04.20-15.42.16:477][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.42.16:516][185]BlueprintEditorCompileResults: Info [1898.05] Compile of FirstPersonCharacter successful! [in 187 ms]
+[2016.04.20-15.42.20:237][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.42.20:774][577]LogSavePackage: Save=390.686066ms
+[2016.04.20-15.42.20:774][577]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/FirstPersonExampleMapF4D99FD14F886BAFC34ED9AA9585769B.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.20-15.42.20:778][577]LogSavePackage: Total save time: 410.403255ms
+[2016.04.20-15.42.20:778][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.20-15.42.20:807][577]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.523
+[2016.04.20-15.42.20:973][577]LogSavePackage: Save=124.874634ms
+[2016.04.20-15.42.20:973][577]LogSavePackage: Moving '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Saved/FirstPersonCharacterEACBD38A45E72295A57341B7223CEBE3.tmp' to '../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.04.20-15.42.20:975][577]LogSavePackage: Total save time: 133.312590ms
+[2016.04.20-15.42.20:975][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Administrator.BRADDLESTATION/Desktop/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.04.20-15.42.43:015][518]LogEditorTransaction: Undo Move Node
+[2016.04.20-15.42.43:355][541]LogEditorTransaction: Undo Delete current selection
+[2016.04.20-15.42.43:648][561]LogEditorTransaction: Undo Add Node
+[2016.04.20-15.43.54:804][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.43.54:804][551]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.20-15.43.54:809][551]LogPlayLevel: [PlayLevel] Compiling EndMenu before play...
+[2016.04.20-15.43.54:856][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 52 ms (2 blueprints)
+[2016.04.20-15.43.54:858][551]LogPlayLevel: [PlayLevel] Compiling MyGamestate before play...
+[2016.04.20-15.43.54:914][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (3 blueprints)
+[2016.04.20-15.43.54:924][551]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2016.04.20-15.43.54:980][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (4 blueprints)
+[2016.04.20-15.43.54:981][551]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2016.04.20-15.43.55:030][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 225 ms (5 blueprints)
+[2016.04.20-15.43.55:031][551]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2016.04.20-15.43.55:080][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 275 ms (5 blueprints)
+[2016.04.20-15.43.55:080][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.20-15.43.55:111][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286922AC0E0
+[2016.04.20-15.43.55:119][551]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2016, 7:43:55 AM)
+[2016.04.20-15.43.55:119][551]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.20-15.43.55:170][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051664s)
+[2016.04.20-15.43.55:171][551]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.20-15.43.55:171][551]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2016.04.20-15.43.55:171][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.052724s)
+[2016.04.20-15.43.55:207][551]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.20-15.43.55:214][551]LogInit: FAudioDevice initialized.
+[2016.04.20-15.43.55:306][551]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.20-15.43.55:322][551]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.20-11.43.55
+[2016.04.20-15.43.55:322][551]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.43.55:323][551]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-15.43.55:325][551]LogWorld: Bringing up level for play took: 0.017589
+[2016.04.20-15.43.55:372][551]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.152
+[2016.04.20-15.43.55:372][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.20-15.43.55:437][553]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:91487).
+[2016.04.20-15.44.01:566][945]LogScriptCore: Script call stack:
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore
+
+[2016.04.20-15.44.01:566][945]LogScript:Warning: Infinite script recursion (250 calls) detected
+	EndMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.EndMenu_C_2
+	Function /Game/FirstPersonBP/Menus/EndMenu.EndMenu_C:GetScore:0000
+[2016.04.20-15.44.01:567][945]PIE:Error: Error Infinite Loop detected in  EndMenu , asserted during  Get Score with the following  Call Stack
+[2016.04.20-15.44.02:096][945]LogCrashTracker: 
+
+
+[2016.04.20-15.44.02:097][945]LogCrashTracker: 
+
+
+[2016.04.20-15.44.02:097][945]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.04.20-15.44.02:148][945]LogExit: Executing StaticShutdownAfterError
+[2016.04.20-15.44.02:176][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:178][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:178][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:178][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:178][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:178][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:178][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:179][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:180][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:180][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:180][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:180][945]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.20-15.44.02:181][945]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.20-15.44.02:181][945]Log file closed, 04/20/16 11:44:02
