@@ -1,0 +1,571 @@
+﻿[2016.04.19-21.39.40:158][  0]Log file open, 04/19/16 17:39:40
+[2016.04.19-21.39.40:158][  0]LogInit:Display: Running engine for game: Targets
+[2016.04.19-21.39.40:158][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.19-21.39.40:158][  0]LogInit:Display: RandInit(559764042) SRandInit(559764044).
+[2016.04.19-21.39.40:158][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.19-21.39.40:158][  0]LogStats: Stats thread started at 2.983261
+[2016.04.19-21.39.40:158][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.19-21.39.40:158][  0]LogInit: API Version: 2758231
+[2016.04.19-21.39.40:158][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.19-21.39.40:158][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.19-21.39.40:158][  0]LogInit: Build Configuration: Development
+[2016.04.19-21.39.40:158][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.19-21.39.40:158][  0]LogInit: Command line:  
+[2016.04.19-21.39.40:158][  0]LogInit: Base directory: F:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.19-21.39.40:158][  0]LogInit: Rocket: 1
+[2016.04.19-21.39.40:242][  0]LogInit: Using libcurl 7.41.0
+[2016.04.19-21.39.40:242][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.19-21.39.40:242][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.19-21.39.40:242][  0]LogInit:  - other features:
+[2016.04.19-21.39.40:242][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.19-21.39.40:242][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.19-21.39.40:242][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.19-21.39.40:242][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.19-21.39.40:242][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.19-21.39.40:242][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.19-21.39.40:242][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.19-21.39.40:242][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.19-21.39.40:242][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.19-21.39.40:242][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.19-21.39.40:372][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.19-21.39.40:683][  0]LogInit: Object subsystem initialized
+[2016.04.19-21.39.40:882][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.19-21.39.40:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.19-21.39.41:157][  0]LogInit: Computer: PATRICK-PC
+[2016.04.19-21.39.41:157][  0]LogInit: User: Patrick
+[2016.04.19-21.39.41:157][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.19-21.39.41:157][  0]LogInit: High frequency timer resolution =3.320308 MHz
+[2016.04.19-21.39.41:157][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.04.19-21.39.41:157][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.19-21.39.41:157][  0]LogMemory: Process Physical Memory: 56.16 MB used, 56.16 MB peak
+[2016.04.19-21.39.41:157][  0]LogMemory: Process Virtual Memory: 58.71 MB used, 58.71 MB peak
+[2016.04.19-21.39.41:157][  0]LogMemory: Physical Memory: 2249.88 MB used, 16335.68 MB total
+[2016.04.19-21.39.41:157][  0]LogMemory: Virtual Memory: 384.80 MB used, 134217728.00 MB total
+[2016.04.19-21.39.42:242][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.19-21.39.44:541][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.04.19-21.39.44:541][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 2 output[s]
+[2016.04.19-21.39.44:543][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.19-21.39.44:543][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 0 output[s]
+[2016.04.19-21.39.44:543][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.19-21.39.44:546][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.19-21.39.44:546][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.19-21.39.44:559][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.19-21.39.44:991][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Patrick's Stuff/Targets/Targets/Intermediate/Shaders/WorkingDirectory/7440/).
+[2016.04.19-21.39.44:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Patricks/AppData/Local/Temp/UnrealShaderWorkingDir/4B77C71144D1D4B1BC76E0AF397183BC/'.
+[2016.04.19-21.39.44:991][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.19-21.39.48:465][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.19-21.39.48:468][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.19-21.39.48:471][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.19-21.39.48:474][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.19-21.39.48:477][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.19-21.39.48:482][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.19-21.39.48:484][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.19-21.39.48:487][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.19-21.39.48:489][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.19-21.39.48:491][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.19-21.39.48:493][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.19-21.39.48:498][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.19-21.39.48:498][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.19-21.39.48:499][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.19-21.39.48:714][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.19-21.39.48:733][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.19-21.39.48:749][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.19-21.39.48:765][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.19-21.39.48:765][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.19-21.39.49:569][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.19-21.39.49:790][  0]LogDerivedDataCache: Loaded boot cache 0.22s 41MB C:/Users/Patricks/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.19-21.39.49:790][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patricks/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.19-21.39.49:790][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Patrick's Stuff/Targets/Targets/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.19-21.39.49:790][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.19-21.39.49:790][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Patrick's Stuff/Targets/Targets/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.19-21.39.49:790][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.19-21.39.49:938][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.19-21.39.49:950][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patricks/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.19-21.39.59:480][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.19-21.39.59:583][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.19-21.40.01:137][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.19-21.40.01:137][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.19-21.40.04:940][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.19-21.40.18:090][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.04.19-21.40.18:325][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.19-21.40.23:132][  0]SourceControl: Info Source control is disabled
+[2016.04.19-21.40.23:286][  0]SourceControl: Info Source control is disabled
+[2016.04.19-21.40.23:442][  0]SourceControl: Info Source control is disabled
+[2016.04.19-21.40.23:573][  0]SourceControl: Info Source control is disabled
+[2016.04.19-21.40.26:664][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.04.19-21.40.26:664][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
+[2016.04.19-21.40.28:539][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.19s
+[2016.04.19-21.40.28:686][  0]LogEngine: Initializing Engine...
+[2016.04.19-21.40.28:747][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.19-21.40.28:875][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.19-21.40.30:074][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.19-21.40.30:280][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.19-21.40.30:336][  0]LogInit: FAudioDevice initialized.
+[2016.04.19-21.40.30:355][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Patricks/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.19-21.40.30:359][  0]LogInit: Texture streaming: Enabled
+[2016.04.19-21.40.30:415][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.19-21.40.30:424][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.19-21.40.30:424][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a11d35bb4e716de7671871ae5c56ff65|a9573fc7a2ed483b825d82afb9787580|e4cea92d-f8ff-4de5-9849-405755594103
+[2016.04.19-21.40.30:435][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.19-21.40.30:490][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.19-21.40.30:791][  0]LogInit: Transaction tracking system initialized
+[2016.04.19-21.40.32:191][  0]BlueprintLog: New page: Editor Load
+[2016.04.19-21.40.36:511][  0]LocalizationService: Info Localization service is disabled
+[2016.04.19-21.40.37:386][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/VehicleOverview'
+[2016.04.19-21.40.37:387][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/VehicleOverview'
+[2016.04.19-21.40.37:387][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/VehicleBP/VehicleOverview.VehicleOverview_C'
+[2016.04.19-21.40.38:114][  0]LogConsoleResponse:Display: 
+[2016.04.19-21.40.42:588][  0]LogFileCache: Scanning file cache for directory 'F:/Patrick's Stuff/Targets/Targets/Content/' took 0.07s
+[2016.04.19-21.40.42:588][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.19-21.40.45:385][  0]SourceControl: Info Source control is disabled
+[2016.04.19-21.40.45:465][  0]Cmd: MAP LOAD FILE="../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.19-21.40.45:570][  0]LightingResults: New page: Lighting Build
+[2016.04.19-21.40.45:919][  0]MapCheck: New page: Map Check
+[2016.04.19-21.40.45:919][  0]LightingResults: New page: Lighting Build
+[2016.04.19-21.40.46:643][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8EE8D3420
+[2016.04.19-21.40.49:402][  0]LogLinker:Warning: Asset '../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.19-21.40.57:712][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.19-21.40.58:712][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.19-21.40.58:787][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.19-21.40.58:858][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.171ms to complete.
+[2016.04.19-21.40.58:858][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 13.405
+[2016.04.19-21.41.03:456][  0]LogCollectionManager: Loaded 0 collections in 0.001509 seconds
+[2016.04.19-21.41.04:003][  0]LogFileCache: Scanning file cache for directory 'F:/Patrick's Stuff/Targets/Targets/Saved/Collections/' took 0.01s
+[2016.04.19-21.41.04:003][  0]LogFileCache: Scanning file cache for directory 'F:/Patrick's Stuff/Targets/Targets/Content/Developers/Patrick/Collections/' took 0.01s
+[2016.04.19-21.41.04:003][  0]LogFileCache: Scanning file cache for directory 'F:/Patrick's Stuff/Targets/Targets/Content/Collections/' took 0.01s
+[2016.04.19-21.41.04:003][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
+[2016.04.19-21.41.04:069][  0]LogContentBrowser: Native class hierarchy populated in 0.0274 seconds. Added 1908 classes and 344 folders.
+[2016.04.19-21.41.04:564][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.19-21.41.06:587][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.19-21.41.07:123][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.19-21.41.07:632][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.19-21.41.07:897][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.19-21.41.07:977][  0]LogLoad: Full Startup: 94.52 seconds (BP compile: 1.40 seconds)
+[2016.04.19-21.41.07:987][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.19-21.41.08:554][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.19-21.41.09:259][  0]LogRenderer: Reallocating scene render targets to support 1208x500 (Frame:2).
+[2016.04.19-21.41.09:443][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.19-21.41.10:224][  7]LogAssetRegistry: Asset discovery search completed in 52.1463 seconds
+[2016.04.19-21.41.10:262][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.19-21.41.10:262][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.015801 seconds (updated 0 objects)
+[2016.04.19-22.12.44:145][903]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.19-22.12.44:935][903]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2016.04.19-22.15.03:312][ 83]LogEditorTransaction: Undo Move Widget
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_10.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_2.WidgetTree_11.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_12.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_3.WidgetTree_13.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_14.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_4.WidgetTree_15.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_16.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_5.WidgetTree_17.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_18.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_6.WidgetTree_19.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_20.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_7.WidgetTree_21.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_22.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_8.WidgetTree_23.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_24.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_9.WidgetTree_25.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_26.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_10.WidgetTree_27.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_28.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_11.WidgetTree_29.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_30.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_12.WidgetTree_31.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_32.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_13.WidgetTree_33.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_34.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_14.WidgetTree_35.VerticalBox_184
+[2016.04.19-22.18.48:117][751]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184.VerticalBoxSlot_253) from referencer (Button /Engine/UMG/Editor/Transient.StartButton).  Import failed...
+[2016.04.19-22.18.48:117][751]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_184.VerticalBoxSlot_253''
+[2016.04.19-22.18.56:933][805]LogEditorTransaction: Undo Paste clipboard contents
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_10.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_2.WidgetTree_11.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_12.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_3.WidgetTree_13.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_14.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_4.WidgetTree_15.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_16.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_5.WidgetTree_17.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_18.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_6.WidgetTree_19.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_20.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_7.WidgetTree_21.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_22.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_8.WidgetTree_23.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_24.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_9.WidgetTree_25.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_26.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_10.WidgetTree_27.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_28.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_11.WidgetTree_29.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_30.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_12.WidgetTree_31.VerticalBox_184
+[2016.04.19-22.19.00:004][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_32.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_13.WidgetTree_33.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_34.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_14.WidgetTree_35.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_36.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_15.WidgetTree_37.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_38.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_16.WidgetTree_39.VerticalBox_184
+[2016.04.19-22.19.00:005][149]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184.VerticalBoxSlot_253) from referencer (Button /Engine/UMG/Editor/Transient.StartButton).  Import failed...
+[2016.04.19-22.19.00:005][149]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_184.VerticalBoxSlot_253''
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_10.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_2.WidgetTree_11.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_12.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_3.WidgetTree_13.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_14.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_4.WidgetTree_15.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_16.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_5.WidgetTree_17.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_18.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_6.WidgetTree_19.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_20.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_7.WidgetTree_21.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_22.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_8.WidgetTree_23.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_24.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_9.WidgetTree_25.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_26.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_10.WidgetTree_27.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_28.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_11.WidgetTree_29.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_30.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_12.WidgetTree_31.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_32.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_13.WidgetTree_33.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_34.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_14.WidgetTree_35.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_36.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_15.WidgetTree_37.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_38.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_16.WidgetTree_39.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_40.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_17.WidgetTree_41.VerticalBox_184
+[2016.04.19-22.19.01:233][294]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184.VerticalBoxSlot_253) from referencer (Button /Engine/UMG/Editor/Transient.StartButton).  Import failed...
+[2016.04.19-22.19.01:233][294]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_184.VerticalBoxSlot_253''
+[2016.04.19-22.23.07:017][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.19-22.23.07:017][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.19-22.23.07:294][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.277
+[2016.04.19-22.23.07:335][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Menus/MainMenu] ([1] browsable assets)...
+[2016.04.19-22.23.07:335][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Menus/MainMenu]
+[2016.04.19-22.23.07:476][625]LogSavePackage: Save=88.639969ms
+[2016.04.19-22.23.07:476][625]LogSavePackage: Moving '../../../../../../Patrick's Stuff/Targets/Targets/Saved/MainMenu_Auto1BA159EB040F7574500C69DB1053BF10B.tmp' to '../../../../../../Patrick's Stuff/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Menus/MainMenu_Auto1.uasset'
+[2016.04.19-22.23.07:478][625]LogSavePackage: Total save time: 116.961740ms
+[2016.04.19-22.23.07:478][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Patrick's Stuff/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Menus/MainMenu_Auto1.uasset
+[2016.04.19-22.23.07:478][625]LogFileHelpers: Auto-saving content packages took 0.183
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_2.WidgetTree_11.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_4.WidgetTree_15.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_5.WidgetTree_17.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_6.WidgetTree_19.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_7.WidgetTree_21.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_10.WidgetTree_27.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_11.WidgetTree_29.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_30.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_12.WidgetTree_31.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_32.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_13.WidgetTree_33.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_34.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_14.WidgetTree_35.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_26.WidgetTree_59.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_58.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_40.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_17.WidgetTree_41.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_50.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_42.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_18.WidgetTree_43.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_44.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_19.WidgetTree_45.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_46.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_20.WidgetTree_47.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_48.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_21.WidgetTree_49.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_22.WidgetTree_51.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_52.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_23.WidgetTree_53.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_54.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_24.WidgetTree_55.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu_C:WidgetTree_56.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184 or VerticalBox /Engine/Transient.World_5:MainMenu_C_25.WidgetTree_57.VerticalBox_184
+[2016.04.19-22.23.36:110][ 44]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/FirstPersonBP/Menus/MainMenu.MainMenu:WidgetTree.VerticalBox_184.VerticalBoxSlot_125) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_126).  Import failed...
+[2016.04.19-22.23.36:110][ 44]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_184.VerticalBoxSlot_125''
+[2016.04.19-22.33.07:459][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.031
+[2016.04.19-22.33.07:463][415]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Menus/MainMenu] ([1] browsable assets)...
+[2016.04.19-22.33.07:463][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Menus/MainMenu]
+[2016.04.19-22.33.07:481][415]LogSavePackage: Save=16.418055ms
+[2016.04.19-22.33.07:481][415]LogSavePackage: Moving '../../../../../../Patrick's Stuff/Targets/Targets/Saved/MainMenu_Auto216ECD0954D7259D1085201897C244FC2.tmp' to '../../../../../../Patrick's Stuff/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Menus/MainMenu_Auto2.uasset'
+[2016.04.19-22.33.07:481][415]LogSavePackage: Total save time: 17.210148ms
+[2016.04.19-22.33.07:481][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Patrick's Stuff/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Menus/MainMenu_Auto2.uasset
+[2016.04.19-22.33.07:481][415]LogFileHelpers: Auto-saving content packages took 0.022
+[2016.04.19-22.40.33:505][787]BlueprintLog: New page: Compile MainMenu
+[2016.04.19-22.40.33:800][787]BlueprintEditorCompileResults: Info [3660.34] Compile of MainMenu successful! [in 294 ms]
+[2016.04.19-22.43.07:444][166]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.025
+[2016.04.19-22.43.07:449][166]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Menus/MainMenu] ([1] browsable assets)...
+[2016.04.19-22.43.07:449][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Menus/MainMenu]
+[2016.04.19-22.43.07:463][166]LogSavePackage: Save=13.243650ms
+[2016.04.19-22.43.07:463][166]LogSavePackage: Moving '../../../../../../Patrick's Stuff/Targets/Targets/Saved/MainMenu_Auto3B798594F407054D536CD87A672C81E5A.tmp' to '../../../../../../Patrick's Stuff/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Menus/MainMenu_Auto3.uasset'
+[2016.04.19-22.43.07:464][166]LogSavePackage: Total save time: 13.916180ms
+[2016.04.19-22.43.07:464][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Patrick's Stuff/Targets/Targets/Saved/Autosaves/Game/FirstPersonBP/Menus/MainMenu_Auto3.uasset
+[2016.04.19-22.43.07:464][166]LogFileHelpers: Auto-saving content packages took 0.020
+[2016.04.19-22.49.21:862][ 44]BlueprintLog: New page: Compile MainMenu
+[2016.04.19-22.49.21:931][ 44]BlueprintEditorCompileResults: Info [4188.47] Compile of MainMenu successful! [in 68 ms]
+[2016.04.19-22.51.15:939][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.19-22.51.15:939][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.19-22.51.16:167][701]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2016, 2:51:15 PM)
+[2016.04.19-22.51.16:167][701]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.19-22.51.16:253][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085919s)
+[2016.04.19-22.51.16:255][701]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.19-22.51.16:255][701]LogPlayLevel: PIE: World Init took: (0.001580s)
+[2016.04.19-22.51.16:255][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.088077s)
+[2016.04.19-22.51.16:283][701]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.19-22.51.16:292][701]LogInit: FAudioDevice initialized.
+[2016.04.19-22.51.16:450][701]LogLinker:Warning: Asset '../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.19-22.51.16:590][701]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.19-22.51.16:615][701]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.19-18.51.16
+[2016.04.19-22.51.16:615][701]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.19-22.51.16:615][701]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.19-22.51.16:652][701]LogWorld: Bringing up level for play took: 0.059488
+[2016.04.19-22.51.16:762][701]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.581
+[2016.04.19-22.51.16:762][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.19-22.51.16:921][703]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:334880).
+[2016.04.19-22.57.26:194][448]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.19-22.57.26:262][448]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.19-22.57.26:306][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E901BAE160
+[2016.04.19-22.59.30:644][  8]Cmd: TRANSACTION UNDO
+[2016.04.19-22.59.30:644][  8]LogEditorTransaction: Undo Edit Color and Opacity
+[2016.04.19-23.01.21:217][129]BlueprintLog: New page: Compile MainMenu
+[2016.04.19-23.01.21:289][129]BlueprintEditorCompileResults: Info [4907.83] Compile of MainMenu successful! [in 72 ms]
+[2016.04.19-23.01.23:107][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Menus/MainMenu" FILE="../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Menus/MainMenu.uasset" SILENT=true
+[2016.04.19-23.01.23:122][336]LogSavePackage: Save=12.430172ms
+[2016.04.19-23.01.23:123][336]LogSavePackage: Moving '../../../../../../Patrick's Stuff/Targets/Targets/Saved/MainMenu424085E54824D2B67E5B4C8A5F4C6A66.tmp' to '../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Menus/MainMenu.uasset'
+[2016.04.19-23.01.23:125][336]LogSavePackage: Total save time: 15.523560ms
+[2016.04.19-23.01.23:125][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Menus/MainMenu.uasset
+[2016.04.19-23.19.35:393][868]BlueprintLog: New page: Compile MainMenu
+[2016.04.19-23.19.35:460][868]BlueprintEditorCompileResults: Info [6002.00] Compile of MainMenu successful! [in 67 ms]
+[2016.04.19-23.20.10:520][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Menus/MainMenu" FILE="../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Menus/MainMenu.uasset" SILENT=true
+[2016.04.19-23.20.10:617][706]LogSavePackage: Save=13.117457ms
+[2016.04.19-23.20.10:617][706]LogSavePackage: Moving '../../../../../../Patrick's Stuff/Targets/Targets/Saved/MainMenu1D5C2962420610125AD267AB0253E662.tmp' to '../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Menus/MainMenu.uasset'
+[2016.04.19-23.20.10:620][706]LogSavePackage: Total save time: 72.369792ms
+[2016.04.19-23.20.10:620][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Patrick's Stuff/Targets/Targets/Content/FirstPersonBP/Menus/MainMenu.uasset
+[2016.04.19-23.20.10:992][707]Cmd: QUIT_EDITOR
+[2016.04.19-23.20.11:512][707]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.19-23.20.11:575][707]LogExit: Preparing to exit.
+[2016.04.19-23.20.12:949][707]LogExit: Editor shut down
+[2016.04.19-23.20.12:949][707]LogExit: Transaction tracking system shut down
+[2016.04.19-23.20.12:996][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8F7FFBC40
+[2016.04.19-23.20.12:997][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8FFAF3E20
+[2016.04.19-23.20.12:999][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8FFA500E0
+[2016.04.19-23.20.12:999][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E88EC17560
+[2016.04.19-23.20.12:999][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E88EBBE200
+[2016.04.19-23.20.12:999][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E88EAD9DA0
+[2016.04.19-23.20.13:000][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E88EADA980
+[2016.04.19-23.20.13:428][707]LogExit: Object subsystem successfully closed.
+[2016.04.19-23.20.13:514][707]LogD3D11RHI: Shutdown
+[2016.04.19-23.20.13:514][707]LogD3D11RHI: CleanupD3DDevice
+[2016.04.19-23.20.13:617][707]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module CookingStats (203)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module SequencerWidgets (202)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.04.19-23.20.13:949][707]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.04.19-23.20.13:952][707]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.04.19-23.20.13:952][707]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.04.19-23.20.13:952][707]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.04.19-23.20.13:952][707]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.04.19-23.20.13:952][707]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.04.19-23.20.13:971][707]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.04.19-23.20.13:989][707]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.04.19-23.20.13:989][707]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.04.19-23.20.13:989][707]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.04.19-23.20.13:989][707]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.04.19-23.20.13:989][707]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.04.19-23.20.14:862][707]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.04.19-23.20.14:863][707]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.04.19-23.20.14:883][707]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.04.19-23.20.14:895][707]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.04.19-23.20.14:896][707]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.04.19-23.20.14:896][707]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.04.19-23.20.14:911][707]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.04.19-23.20.14:911][707]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.04.19-23.20.14:941][707]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.04.19-23.20.14:941][707]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.04.19-23.20.14:941][707]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.04.19-23.20.14:941][707]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.04.19-23.20.14:964][707]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.04.19-23.20.14:964][707]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.04.19-23.20.14:964][707]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.04.19-23.20.14:964][707]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.04.19-23.20.14:964][707]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.04.19-23.20.14:987][707]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.04.19-23.20.14:987][707]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.04.19-23.20.14:987][707]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.04.19-23.20.14:987][707]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.04.19-23.20.14:987][707]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.04.19-23.20.15:007][707]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.04.19-23.20.15:007][707]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.04.19-23.20.15:008][707]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.04.19-23.20.15:033][707]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.19-23.20.15:034][707]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.19-23.20.15:148][707]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.19-23.20.15:176][707]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.04.19-23.20.15:199][707]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.04.19-23.20.15:213][707]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.04.19-23.20.15:213][707]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.04.19-23.20.15:213][707]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.04.19-23.20.15:213][707]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.04.19-23.20.15:239][707]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.04.19-23.20.15:253][707]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.04.19-23.20.15:253][707]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.04.19-23.20.15:253][707]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.04.19-23.20.15:263][707]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.04.19-23.20.15:276][707]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.04.19-23.20.15:276][707]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.04.19-23.20.15:276][707]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.04.19-23.20.15:276][707]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.04.19-23.20.15:276][707]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.04.19-23.20.15:276][707]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.04.19-23.20.15:293][707]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.19-23.20.15:293][707]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.04.19-23.20.15:293][707]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.04.19-23.20.15:294][707]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.04.19-23.20.15:295][707]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.04.19-23.20.15:311][707]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.04.19-23.20.15:412][707]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.04.19-23.20.15:414][707]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.04.19-23.20.15:464][707]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.04.19-23.20.15:464][707]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.19-23.20.15:464][707]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.19-23.20.15:464][707]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.19-23.20.15:467][707]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.19-23.20.15:467][707]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.19-23.20.15:467][707]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.19-23.20.15:467][707]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.19-23.20.15:467][707]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.19-23.20.15:482][707]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.19-23.20.15:493][707]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.19-23.20.15:493][707]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.19-23.20.15:494][707]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.19-23.20.15:494][707]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.19-23.20.15:494][707]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.19-23.20.15:494][707]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.19-23.20.15:514][707]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.19-23.20.15:514][707]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.19-23.20.15:514][707]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.19-23.20.15:514][707]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.19-23.20.15:516][707]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.19-23.20.15:541][707]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.19-23.20.15:634][707]LogDerivedDataCache: Shutdown
+[2016.04.19-23.20.15:634][707]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.19-23.20.15:656][707]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.19-23.20.15:656][707]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.19-23.20.15:685][707]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.19-23.20.16:686][707]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.19-23.20.16:713][707]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.19-23.20.16:721][707]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.19-23.20.16:721][707]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.19-23.20.16:721][707]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.19-23.20.16:721][707]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.19-23.20.16:721][707]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.19-23.20.16:729][707]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.19-23.20.16:748][707]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.19-23.20.16:748][707]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.19-23.20.16:748][707]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.19-23.20.16:748][707]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.19-23.20.16:748][707]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.19-23.20.16:748][707]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.19-23.20.16:759][707]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.19-23.20.16:759][707]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.19-23.20.16:759][707]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.19-23.20.16:761][707]LogExit: Exiting.
+[2016.04.19-23.20.16:777][707]Log file closed, 04/19/16 19:20:16
